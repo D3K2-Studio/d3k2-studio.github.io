@@ -41,7 +41,7 @@ Search repo for `d3k2studio@gmail.com` after any email change.
 
 ## Home page copy
 
-Bilingual blocks use `data-lang="vi"` and `data-lang="en"`. When editing:
+Home blocks use `data-lang="vi"`, `data-lang="en"`, and `data-lang="zh"`. When editing:
 
 - Keep both languages roughly equivalent in meaning
 - Do not put legal obligations only in Vietnamese — binding text is English PP/ToS

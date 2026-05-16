@@ -8,7 +8,7 @@ Official website for **D3K2 Studio** and **Exploding Area** (Android / iOS). Hos
 
 | Page | Path | Purpose |
 |------|------|---------|
-| Home | `/` | Studio + game intro (VI / EN) |
+| Home | `/` | Studio + game intro (VI / EN / 中文) |
 | Privacy Policy | `/privacy-policy.html` | Store compliance (English) |
 | Terms of Service | `/terms-of-service.html` | Store compliance (English) |
 

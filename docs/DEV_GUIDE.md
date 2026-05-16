@@ -51,7 +51,7 @@ No npm, no bundler, no framework.
 1. No dependencies; IIFE pattern for each file.
 2. **localStorage keys** (do not rename without migration note):
    - `d3k2-theme` → `dark` | `light`
-   - `d3k2-lang` → `vi` | `en`
+   - `d3k2-lang` → `vi` | `en` | `zh`
 3. `theme-init.js` **must** load in `<head>` before `site.css` on every page.
 4. `theme.js` loads before `</body>`; call `D3K2Theme.init()` after script tag.
 5. `lang.js` only on `index.html`.
@@ -88,13 +88,15 @@ If OS theme changes and user has **not** saved a preference, site follows OS (`t
 
 ## Language system (home only)
 
+Supported: **vi** (default) · **en** · **zh** (Simplified Chinese).
+
 ```
-<html data-lang-active="vi|en">
-  [data-lang="vi"] blocks visible when vi
-  [data-lang="en"] blocks hidden via CSS
+<html data-lang-active="vi|en|zh">
+  [data-lang="vi|en|zh"] — only active language visible (CSS)
 ```
 
-Toggle button `#lang-toggle` shows **EN** when current is VI (switch to EN).
+Cycle button `#lang-toggle`: **VI** → shows `EN` → shows `中文` → shows `VI`.
+Storage key `d3k2-lang`: `vi` | `en` | `zh`. HTML `lang`: `vi`, `en`, or `zh-Hans`.
 
 ## Adding a new page
 
