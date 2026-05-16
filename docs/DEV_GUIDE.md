@@ -60,7 +60,7 @@ No npm, no bundler, no framework.
 ### Paths
 
 - Production: absolute paths from root (`/assets/css/site.css`) — correct for org site at `https://d3k2-studio.github.io/`.
-- Local: run a static server (see README); `file://` will break assets.
+- Local: run a static server (`python -m http.server 8080` or `npx serve .`); `file://` will break assets.
 
 ### Logo rules
 
@@ -105,7 +105,7 @@ Storage key `d3k2-lang`: `vi` | `en` | `zh` | `ja`. HTML `lang`: `vi`, `en`, `zh
 3. Include before `</body>`: `theme.js` + `D3K2Theme.init()`.
 4. Do **not** include `lang.js` unless page is bilingual.
 5. Update nav on **all** pages if adding a new nav item.
-6. Update `docs/REQUIREMENTS.md` and README if scope changes.
+6. Update `docs/REQUIREMENTS.md` and related docs if scope changes.
 
 ## Changing legal content
 
