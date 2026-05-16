@@ -1,0 +1,236 @@
+# Privacy Policy
+
+**Last Updated: May 2026**
+
+This Privacy Policy explains how **D3K2 Studio** (“we”, “our”, or “us”) collects, uses, stores, and protects information when you use **Exploding Area** (“the Game”).
+
+By downloading, accessing, or using the Game, you agree to the practices described in this Privacy Policy.
+
+---
+
+# 1. Information We May Collect
+
+Depending on the features you use, the Game may collect limited information necessary to operate, maintain, and improve gameplay experience.
+
+## Gameplay and Device Information
+
+The Game may collect:
+
+* Gameplay progress and save data
+* In-game settings and preferences
+* Device model and hardware information
+* Operating system version
+* Language and region settings
+* IP address
+* Advertising identifiers
+* Device identifiers
+* Approximate location information
+* Performance, diagnostic, and crash data
+* Ad interaction and gameplay analytics data
+
+This information may be collected automatically through the Game or integrated third-party services.
+
+---
+
+## Account and Platform Information
+
+If you choose to connect supported platform services, we may receive limited account-related information from:
+
+* Google Play Games
+* Apple Game Center
+
+This information may include:
+
+* Player ID
+* Display name
+* Authentication status
+* Basic account profile information provided by the platform
+
+We do not collect passwords, payment card details, or sensitive authentication credentials from these services.
+
+---
+
+# 2. How We Use Information
+
+Information collected may be used to:
+
+* Operate and maintain the Game
+* Save gameplay progress
+* Provide online and multiplayer features
+* Improve gameplay balance and performance
+* Analyze crashes and technical issues
+* Prevent cheating, fraud, abuse, or unauthorized activities
+* Provide customer support
+* Display and optimize advertisements
+* Measure advertisement performance
+* Improve overall player experience
+* Comply with legal obligations where applicable
+
+We do not sell personal information to third parties.
+
+---
+
+# 3. Local Storage and Cloud Saves
+
+The Game may store data locally on your device, including:
+
+* Save progress
+* Gameplay statistics
+* Settings and preferences
+* Temporary gameplay data
+
+If supported platform services are enabled, certain data may also be synchronized through cloud save systems provided by third-party platforms.
+
+Cloud save availability may depend on:
+
+* Internet connection
+* Platform account status
+* Device compatibility
+* Third-party service availability
+
+D3K2 Studio is not responsible for loss of data caused by device failures, third-party platform issues, or unauthorized access.
+
+---
+
+# 4. Third-Party Services
+
+The Game may use third-party services that operate under their own terms and privacy policies.
+
+These services may include:
+
+* Google Play Games Services
+* Apple Game Center
+* Google AdMob
+* Google Firebase
+* Analytics or crash reporting services
+* Cloud save services
+* Online multiplayer infrastructure
+
+Third-party providers may automatically collect certain technical or usage-related information in accordance with their own policies.
+
+D3K2 Studio does not control and is not responsible for the privacy practices of third-party providers.
+
+---
+
+# 5. Advertising and Purchases
+
+The Game may display third-party advertisements, including advertisements provided through services such as Google AdMob.
+
+Advertising providers may automatically collect certain information through their SDKs and technologies, including:
+
+* Device identifiers,
+* Advertising identifiers,
+* IP address,
+* Device and operating system information,
+* Approximate location information,
+* Advertisement interaction data,
+* And advertisement performance information.
+
+This information may be used to:
+
+* Display advertisements,
+* Personalize advertising content,
+* Measure advertisement performance,
+* Prevent fraud and abuse,
+* Improve advertising services and user experience.
+
+Depending on your region and applicable laws, advertisements may be personalized based on your activity, device information, or advertising identifiers.
+
+You may manage advertising preferences through:
+
+* Device settings,
+* Platform privacy settings,
+* Or consent options presented within the Game where applicable.
+
+The Game may also offer optional in-app purchases. Payment transactions are processed by third-party platform providers such as Google Play or Apple App Store.
+
+D3K2 Studio does not directly collect or store payment card or billing information.
+
+---
+
+# 6. Data Security
+
+We take reasonable technical and organizational measures to help protect information related to the Game.
+
+However:
+
+* No online service can be completely secure,
+* No method of electronic storage is fully guaranteed,
+* And no network transmission can be guaranteed against unauthorized access.
+
+Use of the Game is at your own risk.
+
+---
+
+# 7. Children's Privacy
+
+The Game is not intended to knowingly collect personal information from children in violation of applicable laws.
+
+If a parent or guardian believes that a child has improperly provided personal information, they may contact us to request review or removal where applicable.
+
+Certain features, advertisements, or online services may be restricted depending on age, region, or platform requirements.
+
+---
+
+# 8. Data Retention
+
+We may retain gameplay-related and technical information for as long as reasonably necessary to:
+
+* Provide Game functionality,
+* Maintain online services,
+* Resolve disputes,
+* Enforce policies,
+* Prevent abuse or fraud,
+* And comply with legal obligations.
+
+Some information may be deleted when:
+
+* The Game is uninstalled,
+* Save data is removed,
+* Platform accounts are disconnected,
+* Or data retention is no longer necessary.
+
+---
+
+# 9. International Data Processing
+
+Depending on the services used, information related to the Game may be processed or stored on servers located in different countries.
+
+By using the Game, you acknowledge that information may be transferred and processed outside your country of residence where permitted by applicable law.
+
+---
+
+# 10. Regional Privacy Rights
+
+Depending on your region and applicable laws, you may have certain privacy rights regarding your information.
+
+These rights may include:
+
+* Requesting access to certain information,
+* Requesting deletion of applicable information,
+* Restricting certain data processing activities,
+* Or managing advertising preferences.
+
+Where required by applicable law, the Game may request consent for personalized advertisements or specific data processing activities.
+
+Some requests may be limited by legal, technical, security, or operational requirements.
+
+---
+
+# 11. Changes to This Privacy Policy
+
+D3K2 Studio may update this Privacy Policy from time to time.
+
+Updated versions become effective once published within the Game or through official channels. Continued use of the Game after updates constitutes acceptance of the revised Privacy Policy.
+
+---
+
+# 12. Contact
+
+If you have questions regarding this Privacy Policy, please contact D3K2 Studio through the official support channels provided within the Game or on official community pages.
+
+Email: d3k2studio@gmail.com
+
+---
+
+© 2026 D3K2 Studio. All rights reserved.

@@ -1,0 +1,223 @@
+# Terms of Service
+
+**Last Updated: May 2026**
+
+Welcome to **Exploding Area** (“the Game”), operated by **D3K2 Studio** (“we”, “our”, or “us”).
+
+By downloading, installing, accessing, or using the Game, you agree to be bound by these Terms of Service (“Terms”). If you do not agree to these Terms, please discontinue use of the Game.
+
+---
+
+# 1. Eligibility and Acceptance
+
+You agree to use the Game in compliance with all applicable laws, platform policies, and these Terms.
+
+By using the Game, you confirm that:
+
+* You are legally permitted to use the Game in your region.
+* You accept and agree to these Terms.
+* You will use the Game responsibly and respectfully.
+
+---
+
+# 2. License to Use the Game
+
+D3K2 Studio grants you a limited, non-exclusive, non-transferable, and revocable license to access and use the Game for personal, non-commercial entertainment purposes only.
+
+You may not:
+
+* Modify, copy, distribute, or reverse engineer any part of the Game.
+* Use cheats, hacks, bots, exploits, automation tools, or unauthorized third-party software.
+* Interfere with servers, systems, or gameplay functionality.
+* Attempt unauthorized access to accounts, services, or internal systems.
+
+Violation of these Terms may result in temporary suspension or permanent termination of access to the Game.
+
+---
+
+# 3. Accounts and Save Data
+
+Certain Game features may connect with third-party platform services, including:
+
+* Google Play Games
+* Apple Game Center
+
+You are responsible for maintaining the security of your accounts and devices.
+
+The Game may store gameplay progress, settings, and related save data locally or through supported cloud services to improve user experience.
+
+D3K2 Studio is not responsible for data loss caused by:
+
+* Device issues,
+* Platform account problems,
+* User actions,
+* Unauthorized access,
+* Or third-party service interruptions.
+
+---
+
+# 4. In-Game Items and Rewards
+
+The Game may include:
+
+* Unlockable content,
+* Cosmetic items,
+* Gameplay rewards,
+* In-game resources,
+* And other digital items or features.
+
+These items:
+
+* Have no real-world monetary value,
+* Are non-transferable,
+* And may not be exchanged for real currency except where required by applicable law.
+
+D3K2 Studio reserves the right to modify, rebalance, adjust, remove, or reset any in-game systems, rewards, or digital items at any time.
+
+---
+
+# 5. Advertisements and Third-Party Services
+
+The Game may display third-party advertisements, including advertisements provided through services such as Google AdMob.
+
+The Game may also integrate third-party services, including:
+
+* Google Play Games Services,
+* Apple Game Center,
+* Google AdMob,
+* Analytics or crash reporting services,
+* Cloud save services,
+* And online multiplayer infrastructure.
+
+Third-party providers may collect limited technical or device-related information in accordance with their own terms and privacy policies.
+
+D3K2 Studio does not control or assume responsibility for the practices, availability, or content of third-party services.
+
+---
+
+# 6. Online Features and Service Availability
+
+Certain features of the Game may require an active internet connection.
+
+We do not guarantee that:
+
+* Online services will always be available,
+* Multiplayer functionality will be uninterrupted,
+* Advertisements will always be available,
+* Or the Game will always operate without errors.
+
+Maintenance, updates, server outages, third-party service interruptions, or technical limitations may temporarily affect gameplay or access to specific features.
+
+---
+
+# 7. Updates and Changes
+
+D3K2 Studio may release updates, patches, bug fixes, balance adjustments, advertisements, monetization changes, or new content at any time without prior notice.
+
+Continued use of the Game after updates constitutes acceptance of the updated Game and these Terms.
+
+---
+
+# 8. Intellectual Property
+
+All rights, title, and interest in and to the Game, including but not limited to:
+
+* Software,
+* Game design,
+* Gameplay systems,
+* Artwork,
+* Audio,
+* Animations,
+* User interface,
+* Logos,
+* Visual assets,
+* Written content,
+* And related materials
+
+are owned by or licensed to D3K2 Studio and protected under applicable intellectual property laws.
+
+You may not copy, reproduce, distribute, or use any part of the Game without prior written permission from D3K2 Studio.
+
+---
+
+# 9. User Conduct
+
+You agree not to:
+
+* Harass, abuse, or threaten other players,
+* Share harmful, illegal, or offensive content,
+* Exploit bugs or unintended mechanics,
+* Engage in fraudulent or disruptive behavior.
+
+D3K2 Studio reserves the right to investigate violations and take appropriate action, including restricting or terminating access to the Game.
+
+---
+
+# 10. Disclaimer of Warranties
+
+The Game is provided on an “AS IS” and “AS AVAILABLE” basis without warranties of any kind, express or implied.
+
+To the maximum extent permitted by applicable law, D3K2 Studio disclaims all warranties regarding:
+
+* Availability,
+* Stability,
+* Compatibility,
+* Fitness for a particular purpose,
+* Non-infringement,
+* Or uninterrupted operation.
+
+---
+
+# 11. Limitation of Liability
+
+To the fullest extent permitted by law, D3K2 Studio shall not be liable for:
+
+* Loss of data,
+* Loss of progress,
+* Service interruptions,
+* Device or software issues,
+* Advertisement availability,
+* Or indirect or consequential damages arising from use of the Game.
+
+Your use of the Game is at your own risk.
+
+---
+
+# 12. Privacy
+
+Your use of the Game may also be governed by our Privacy Policy, which explains how information and gameplay-related data may be collected, stored, and used.
+
+By using the Game, you also agree to the applicable Privacy Policy.
+
+---
+
+# 13. Termination
+
+D3K2 Studio reserves the right to suspend, restrict, or terminate access to the Game at its sole discretion if:
+
+* These Terms are violated,
+* Harmful behavior is detected,
+* Unauthorized activities occur,
+* Or third-party platform rules are violated.
+
+Termination may result in loss of access to accounts, save data, or in-game progress.
+
+---
+
+# 14. Changes to These Terms
+
+D3K2 Studio may update these Terms from time to time.
+
+Updated versions become effective once published within the Game or through official channels. Continued use of the Game after such changes constitutes acceptance of the revised Terms.
+
+---
+
+# 15. Contact
+
+If you have questions regarding these Terms, please contact D3K2 Studio through the official support channels provided within the Game or on official community pages.
+
+Email: d3k2studio@gmail.com
+
+---
+
+© 2026 D3K2 Studio. All rights reserved.
