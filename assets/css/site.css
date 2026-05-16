@@ -333,10 +333,11 @@ a:hover {
   text-align: center;
 }
 
-/* Language visibility (vi | en | zh) */
+/* Language visibility (vi | en | zh | ja) */
 [data-lang-active="vi"] [data-lang]:not([data-lang="vi"]),
 [data-lang-active="en"] [data-lang]:not([data-lang="en"]),
-[data-lang-active="zh"] [data-lang]:not([data-lang="zh"]) {
+[data-lang-active="zh"] [data-lang]:not([data-lang="zh"]),
+[data-lang-active="ja"] [data-lang]:not([data-lang="ja"]) {
   display: none !important;
 }
 

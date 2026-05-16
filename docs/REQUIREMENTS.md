@@ -21,7 +21,7 @@
 
 | Page | Language | Content source |
 |------|----------|----------------|
-| Home (`index.html`) | Vietnamese + English + Chinese (cycle toggle) | Hand-written marketing copy |
+| Home (`index.html`) | Vietnamese + English + Chinese + Japanese (dropdown) | Hand-written marketing copy |
 | Privacy Policy | English only | `docs/legal-sources/PP.txt` → `privacy-policy.html` |
 | Terms of Service | English only | `docs/legal-sources/ToS.txt` → `terms-of-service.html` |
 
@@ -45,8 +45,8 @@
 
 | ID | Requirement |
 |----|-------------|
-| L1 | **Dropdown** to choose VI / EN / 中文 on home page |
-| L2 | Persist choice in `localStorage` key `d3k2-lang` (`vi` \| `en` \| `zh`) |
+| L1 | **Dropdown** to choose VI / EN / 中文 / 日本語 on home page |
+| L2 | Persist choice in `localStorage` key `d3k2-lang` (`vi` \| `en` \| `zh` \| `ja`) |
 | L3 | Default language: **Vietnamese** |
 | L4 | Note on home: legal documents are in English (all UI langs) |
 
