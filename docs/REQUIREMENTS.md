@@ -74,7 +74,7 @@
 - **Do not** enable Jekyll processing of unknown plugins; `.nojekyll` at repo root
 - Legal wording changes should be reviewed before publish (not automated legal advice)
 - Keep URLs stable after store submission; changing paths requires updating store listings
-- Absolute asset paths (`/assets/...`) assume site is served from **domain root** (`username.github.io`)
+- Absolute asset paths (`/assets/...`) assume site is served from **domain root** (`https://d3k2-studio.github.io/`)
 
 ## 6. Out of scope (current version)
 
@@ -106,4 +106,4 @@ Update these in **all** places when they change (see [CONTENT.md](CONTENT.md)):
 | Contact email | d3k2studio@gmail.com |
 | Copyright year | 2026 |
 | Legal last updated | May 2026 |
-| Site base URL | https://d3k2studio.github.io |
+| Site base URL | https://d3k2-studio.github.io |
