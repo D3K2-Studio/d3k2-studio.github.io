@@ -302,12 +302,10 @@ a:hover {
   text-align: center;
 }
 
-/* Language visibility */
-[data-lang-active="vi"] [data-lang="en"] {
-  display: none !important;
-}
-
-[data-lang-active="en"] [data-lang="vi"] {
+/* Language visibility (vi | en | zh) */
+[data-lang-active="vi"] [data-lang]:not([data-lang="vi"]),
+[data-lang-active="en"] [data-lang]:not([data-lang="en"]),
+[data-lang-active="zh"] [data-lang]:not([data-lang="zh"]) {
   display: none !important;
 }
 
