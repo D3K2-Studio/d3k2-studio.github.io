@@ -1,16 +1,17 @@
 /**
  * Home page language select — see docs/DEV_GUIDE.md
- * Storage key: d3k2-lang | values: vi | en | zh
+ * Storage key: d3k2-lang | values: vi | en | zh | ja
  */
 (function () {
   var STORAGE_KEY = "d3k2-lang";
   var DEFAULT = "vi";
-  var LANGS = ["vi", "en", "zh"];
+  var LANGS = ["vi", "en", "zh", "ja"];
 
   var HTML_LANG = {
     vi: "vi",
     en: "en",
     zh: "zh-Hans",
+    ja: "ja",
   };
 
   function getStoredLang() {
