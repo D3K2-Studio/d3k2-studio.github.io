@@ -11,6 +11,16 @@
 
 The `references/` folder at repo root was used during initial import; **do not rely on it** after removal. Use `docs/legal-sources/` only.
 
+## Public URLs (store listings)
+
+| Page | URL |
+|------|-----|
+| Home | https://d3k2-studio.github.io/ |
+| Privacy Policy | https://d3k2-studio.github.io/privacy-policy.html |
+| Terms of Service | https://d3k2-studio.github.io/terms-of-service.html |
+
+GitHub repo: **D3K2-Studio/D3K2-Studio.github.io** (org site — served at domain root, not `/repo-name/`).
+
 ## Brand strings (must stay consistent)
 
 | String | Value |

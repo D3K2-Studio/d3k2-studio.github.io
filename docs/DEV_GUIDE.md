@@ -59,7 +59,7 @@ No npm, no bundler, no framework.
 
 ### Paths
 
-- Production: absolute paths from root (`/assets/css/site.css`) — correct for `*.github.io` user site.
+- Production: absolute paths from root (`/assets/css/site.css`) — correct for org site at `https://d3k2-studio.github.io/`.
 - Local: run a static server (see README); `file://` will break assets.
 
 ### Logo rules

@@ -12,7 +12,7 @@ flowchart TB
   end
 
   subgraph github [GitHub]
-    Repo[d3k2studio.github.io repo]
+    Repo[D3K2-Studio.github.io repo]
     Pages[GitHub Pages CDN]
   end
 

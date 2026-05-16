@@ -2,7 +2,7 @@
 
 Official website for **D3K2 Studio** and **Exploding Area** (Android / iOS). Hosts Privacy Policy and Terms of Service for app store listings.
 
-**Live URL (after deploy):** https://d3k2studio.github.io/
+**Live URL:** https://d3k2-studio.github.io/
 
 ## Pages
 
@@ -16,17 +16,23 @@ Official website for **D3K2 Studio** and **Exploding Area** (Android / iOS). Hos
 
 Use these in Google Play Console and App Store Connect:
 
-- Privacy Policy: `https://d3k2studio.github.io/privacy-policy.html`
-- Terms of Service: `https://d3k2studio.github.io/terms-of-service.html`
+- Privacy Policy: `https://d3k2-studio.github.io/privacy-policy.html`
+- Terms of Service: `https://d3k2-studio.github.io/terms-of-service.html`
 
 ## Deploy (GitHub Pages)
 
-1. Push this repo to GitHub as **`d3k2studio/d3k2studio.github.io`** (organization/user site).
+1. Push this repo to GitHub as **`D3K2-Studio/D3K2-Studio.github.io`** (organization site — repo name must match the org).
 2. **Settings → Pages → Build and deployment**
    - Source: **Deploy from a branch**
    - Branch: **`main`** (or your default branch)
    - Folder: **`/ (root)`**
-3. Wait 1–5 minutes. Site is served over HTTPS automatically.
+3. Wait 1–5 minutes. Site is served at **https://d3k2-studio.github.io/** (root — not `/repo-name/`).
+
+If you renamed the repo on GitHub, update your local remote:
+
+```bash
+git remote set-url origin https://github.com/D3K2-Studio/D3K2-Studio.github.io.git
+```
 
 No build step. Static HTML/CSS/JS only.
 
