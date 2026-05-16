@@ -45,7 +45,7 @@
 
 | ID | Requirement |
 |----|-------------|
-| L1 | Cycle **VI → EN → 中文** on home page |
+| L1 | **Dropdown** to choose VI / EN / 中文 on home page |
 | L2 | Persist choice in `localStorage` key `d3k2-lang` (`vi` \| `en` \| `zh`) |
 | L3 | Default language: **Vietnamese** |
 | L4 | Note on home: legal documents are in English (all UI langs) |

@@ -54,7 +54,7 @@ No npm, no bundler, no framework.
    - `d3k2-lang` → `vi` | `en` | `zh`
 3. `theme-init.js` **must** load in `<head>` before `site.css` on every page.
 4. `theme.js` loads before `</body>`; call `D3K2Theme.init()` after script tag.
-5. `lang.js` only on `index.html`.
+5. `lang.js` only on `index.html` (binds `#lang-select`).
 6. Graceful degradation if `localStorage` blocked (use system theme / default lang).
 
 ### Paths
@@ -95,7 +95,7 @@ Supported: **vi** (default) · **en** · **zh** (Simplified Chinese).
   [data-lang="vi|en|zh"] — only active language visible (CSS)
 ```
 
-Cycle button `#lang-toggle`: **VI** → shows `EN` → shows `中文` → shows `VI`.
+Dropdown `#lang-select`: options Tiếng Việt / English / 中文.
 Storage key `d3k2-lang`: `vi` | `en` | `zh`. HTML `lang`: `vi`, `en`, or `zh-Hans`.
 
 ## Adding a new page

@@ -26,7 +26,12 @@
         <a href="/terms-of-service.html">Terms</a>
       </nav>
       <div class="header-actions">
-        <button type="button" id="lang-toggle" class="btn-icon" aria-label="Switch to English">EN</button>
+        <label class="sr-only" for="lang-select">Language</label>
+        <select id="lang-select" class="lang-select" aria-label="Language">
+          <option value="vi">Tiếng Việt</option>
+          <option value="en">English</option>
+          <option value="zh">中文</option>
+        </select>
         <button type="button" id="theme-toggle" class="btn-icon" aria-pressed="true" aria-label="Switch to light theme" title="Light mode">&#9728;</button>
       </div>
     </div>
