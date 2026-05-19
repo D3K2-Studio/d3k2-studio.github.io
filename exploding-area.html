@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="vi" data-lang-active="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Exploding Area — D3K2 Studio</title>
+  <meta name="description" content="Exploding Area — fast-paced action puzzle game by D3K2 Studio. Story mode, Deathmatch, Last Man Standing, offline and online play. Coming soon to Google Play and App Store.">
+  <link rel="canonical" href="https://d3k2-studio.github.io/exploding-area.html">
+  <link rel="icon" href="/assets/images/logo-512.png" type="image/png">
+  <link rel="apple-touch-icon" href="/assets/images/logo-512.png">
+  <script src="/assets/js/theme-init.js"></script>
+  <link rel="stylesheet" href="/assets/css/site.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="/" class="brand">
+        <span class="logo-box">
+          <img src="/assets/images/logo-512.png" alt="" width="40" height="40">
+        </span>
+        <span class="brand-name">D3K2 Studio</span>
+      </a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="/">Home</a>
+        <a href="/exploding-area.html" aria-current="page">Exploding Area</a>
+        <a href="/privacy-policy.html">Privacy</a>
+        <a href="/terms-of-service.html">Terms</a>
+      </nav>
+      <div class="header-actions">
+        <label class="sr-only" for="lang-select">Language</label>
+        <select id="lang-select" class="lang-select" aria-label="Language">
+          <option value="vi">Tiếng Việt</option>
+          <option value="en">English</option>
+          <option value="zh">中文</option>
+          <option value="ja">日本語</option>
+        </select>
+        <button type="button" id="theme-toggle" class="btn-icon" aria-pressed="true" aria-label="Switch to light theme" title="Light mode">&#9728;</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="site-main game-page">
+    <p class="back-link" data-lang="vi"><a href="/">&larr; Về trang chủ</a></p>
+    <p class="back-link" data-lang="en"><a href="/">&larr; Back to home</a></p>
+    <p class="back-link" data-lang="zh"><a href="/">&larr; 返回首页</a></p>
+    <p class="back-link" data-lang="ja"><a href="/">&larr; ホームに戻る</a></p>
+
+    <article class="game-content">
+      <div data-lang="vi">
+        <h1>Exploding Area</h1>
+        <p class="game-tagline">Hành động giải đố tốc độ cao — lấy cảm hứng từ lối chơi đặt bom kinh điển, nâng cấp cho thời đại hiện đại.</p>
+      </div>
+      <div data-lang="en">
+        <h1>Exploding Area</h1>
+        <p class="game-tagline">Fast-paced action puzzle — classic bomber-style gameplay reimagined for modern players.</p>
+      </div>
+      <div data-lang="zh">
+        <h1>Exploding Area</h1>
+        <p class="game-tagline">节奏明快的动作解谜 — 经典炸弹人式玩法，为现代玩家重新演绎。</p>
+      </div>
+      <div data-lang="ja">
+        <h1>Exploding Area</h1>
+        <p class="game-tagline">テンポの速いアクションパズル — クラシックなボンバー系プレイを現代向けに再構築。</p>
+      </div>
+
+      <section data-lang="vi">
+        <h2>Giới thiệu</h2>
+        <p>Exploding Area là tựa game hành động giải đố do D3K2 Studio phát triển. Người chơi đặt bom, phá vật cản, thu thập vật phẩm và đối đầu với kẻ thù trong các màn chơi đa dạng. Trò chơi kết hợp cảm giác hoài niệm của thể loại bomber với đồ họa, điều khiển và hệ thống chế độ chơi được thiết kế cho mobile.</p>
+      </section>
+      <section data-lang="en">
+        <h2>Overview</h2>
+        <p>Exploding Area is an action puzzle game developed by D3K2 Studio. Place bombs, break obstacles, collect power-ups, and outsmart opponents across varied stages. The game blends the nostalgic feel of classic bomber gameplay with visuals, controls, and mode systems built for mobile.</p>
+      </section>
+      <section data-lang="zh">
+        <h2>游戏简介</h2>
+        <p>《Exploding Area》是 D3K2 Studio 开发的动作解谜游戏。放置炸弹、破坏障碍、收集道具，并在多样关卡中与敌人周旋。游戏将经典炸弹人式的怀旧手感与为移动平台设计的画面、操控和模式系统相结合。</p>
+      </section>
+      <section data-lang="ja">
+        <h2>概要</h2>
+        <p>『Exploding Area』は D3K2 Studio が開発するアクションパズルゲームです。爆弾を設置し、障害物を破壊し、パワーアップを集め、多彩なステージで敵と対峙します。クラシックなボンバー系の懐かしさと、モバイル向けに設計されたビジュアル、操作、モードシステムを融合しています。</p>
+      </section>
+
+      <section data-lang="vi">
+        <h2>Chế độ chơi</h2>
+        <ul>
+          <li><strong>Cốt truyện</strong> — Vượt màn theo hành trình, khám phá bản đồ và thử thách tăng dần.</li>
+          <li><strong>Deathmatch</strong> — Trận đấu nhanh, nhiều người chơi, chiến thắng bằng kỹ năng và chiến thuật.</li>
+          <li><strong>Last Man Standing</strong> — Đấu trường sinh tồn: chỉ một người còn lại là thắng.</li>
+        </ul>
+        <p>Hỗ trợ chơi <strong>offline</strong> và <strong>online</strong> tùy chế độ.</p>
+      </section>
+      <section data-lang="en">
+        <h2>Game modes</h2>
+        <ul>
+          <li><strong>Story</strong> — Progress through a campaign, explore maps, and tackle escalating challenges.</li>
+          <li><strong>Deathmatch</strong> — Fast multiplayer battles won through skill and tactics.</li>
+          <li><strong>Last Man Standing</strong> — Survival arena: only one player remains standing.</li>
+        </ul>
+        <p>Play <strong>offline</strong> or <strong>online</strong> depending on the mode.</p>
+      </section>
+      <section data-lang="zh">
+        <h2>游戏模式</h2>
+        <ul>
+          <li><strong>剧情模式</strong> — 沿战役推进关卡，探索地图，迎接逐步升级的挑战。</li>
+          <li><strong>死亡竞赛（Deathmatch）</strong> — 快节奏多人对战，凭技巧与战术取胜。</li>
+          <li><strong>Last Man Standing</strong> — 生存竞技场：最后一名玩家获胜。</li>
+        </ul>
+        <p>根据模式支持<strong>离线</strong>与<strong>在线</strong>游玩。</p>
+      </section>
+      <section data-lang="ja">
+        <h2>ゲームモード</h2>
+        <ul>
+          <li><strong>ストーリー</strong> — キャンペーンを進行し、マップを探索し、段階的に難しくなる挑戦に挑む。</li>
+          <li><strong>デスマッチ</strong> — テンポの速いマルチプレイ。スキルと戦術で勝利を掴む。</li>
+          <li><strong>ラストマン・スタンディング</strong> — サバイバルアリーナ。最後に残ったプレイヤーの勝ち。</li>
+        </ul>
+        <p>モードに応じて<strong>オフライン</strong>・<strong>オンライン</strong>の両方に対応。</p>
+      </section>
+
+      <section data-lang="vi">
+        <h2>Điểm nổi bật</h2>
+        <ul>
+          <li>Lối chơi quen thuộc, dễ làm quen, khó làm chủ</li>
+          <li>Nhiều chế độ và màn chơi đa dạng</li>
+          <li>Tối ưu cho điện thoại và máy tính bảng</li>
+          <li>Hỗ trợ chơi một mình và cùng bạn bè (tùy chế độ)</li>
+        </ul>
+      </section>
+      <section data-lang="en">
+        <h2>Highlights</h2>
+        <ul>
+          <li>Familiar mechanics — easy to pick up, rewarding to master</li>
+          <li>Multiple modes and varied stages</li>
+          <li>Optimized for phones and tablets</li>
+          <li>Solo and friends play supported (mode-dependent)</li>
+        </ul>
+      </section>
+      <section data-lang="zh">
+        <h2>特色</h2>
+        <ul>
+          <li>熟悉的玩法 — 易上手，难精通</li>
+          <li>多种模式与丰富关卡</li>
+          <li>针对手机与平板优化</li>
+          <li>支持单人及好友同玩（视模式而定）</li>
+        </ul>
+      </section>
+      <section data-lang="ja">
+        <h2>特徴</h2>
+        <ul>
+          <li>馴染みのある操作 — すぐ始められ、極めるほど奥深い</li>
+          <li>多彩なモードとステージ</li>
+          <li>スマートフォン・タブレット向けに最適化</li>
+          <li>ソロプレイとフレンドとの対戦に対応（モードによる）</li>
+        </ul>
+      </section>
+
+      <section data-lang="vi">
+        <h2>Nền tảng</h2>
+        <p><em>Sắp ra mắt trên Google Play và App Store.</em></p>
+        <p>Liên kết tải game sẽ được cập nhật tại đây khi phát hành.</p>
+      </section>
+      <section data-lang="en">
+        <h2>Platforms</h2>
+        <p><em>Coming soon to Google Play and the App Store.</em></p>
+        <p>Download links will be added here when the game launches.</p>
+      </section>
+      <section data-lang="zh">
+        <h2>平台</h2>
+        <p><em>即将登陆 Google Play 与 App Store。</em></p>
+        <p>游戏上线后，下载链接将在此更新。</p>
+      </section>
+      <section data-lang="ja">
+        <h2>プラットフォーム</h2>
+        <p><em>Google Play と App Store で近日公開予定。</em></p>
+        <p>リリース後、ダウンロードリンクをここに掲載します。</p>
+      </section>
+
+      <section data-lang="vi">
+        <h2>Pháp lý</h2>
+        <p>
+          <a class="btn-link" href="/privacy-policy.html">Privacy Policy</a>
+          &nbsp;·&nbsp;
+          <a class="btn-link" href="/terms-of-service.html">Terms of Service</a>
+        </p>
+        <p class="legal-note-inline">Tài liệu pháp lý được cung cấp bằng tiếng Anh.</p>
+      </section>
+      <section data-lang="en">
+        <h2>Legal</h2>
+        <p>
+          <a class="btn-link" href="/privacy-policy.html">Privacy Policy</a>
+          &nbsp;·&nbsp;
+          <a class="btn-link" href="/terms-of-service.html">Terms of Service</a>
+        </p>
+        <p class="legal-note-inline">Legal documents are provided in English.</p>
+      </section>
+      <section data-lang="zh">
+        <h2>法律文件</h2>
+        <p>
+          <a class="btn-link" href="/privacy-policy.html">隐私政策</a>
+          &nbsp;·&nbsp;
+          <a class="btn-link" href="/terms-of-service.html">服务条款</a>
+        </p>
+        <p class="legal-note-inline">法律条文以英文提供。</p>
+      </section>
+      <section data-lang="ja">
+        <h2>法的文書</h2>
+        <p>
+          <a class="btn-link" href="/privacy-policy.html">プライバシーポリシー</a>
+          &nbsp;·&nbsp;
+          <a class="btn-link" href="/terms-of-service.html">利用規約</a>
+        </p>
+        <p class="legal-note-inline">法的条文は英語で提供されています。</p>
+      </section>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span>&copy; 2026 D3K2 Studio. All rights reserved.</span>
+      <nav class="footer-links" aria-label="Footer">
+        <a href="/privacy-policy.html">Privacy Policy</a>
+        <a href="/terms-of-service.html">Terms of Service</a>
+        <a href="mailto:d3k2studio@gmail.com">d3k2studio@gmail.com</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="/assets/js/theme.js"></script>
+  <script>window.D3K2Theme && window.D3K2Theme.init();</script>
+  <script src="/assets/js/lang.js"></script>
+</body>
+</html>
