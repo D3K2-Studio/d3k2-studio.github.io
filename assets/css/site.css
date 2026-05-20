@@ -306,6 +306,121 @@ a:hover {
   text-decoration: none;
 }
 
+.card--link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  transition: border-color var(--transition), transform var(--transition);
+}
+
+.card--link:hover {
+  border-color: var(--text-muted);
+  color: inherit;
+  transform: translateY(-2px);
+}
+
+.card--link:focus-visible {
+  outline: 2px solid var(--link);
+  outline-offset: 2px;
+}
+
+.card--link h2 {
+  color: var(--text);
+}
+
+.card-cta {
+  display: inline-block;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--link);
+}
+
+.card--link:hover .card-cta {
+  color: var(--link-hover);
+}
+
+/* Game detail page */
+.game-page {
+  max-width: var(--content-max);
+}
+
+.back-link {
+  margin: 0 0 1.25rem;
+  font-size: 0.9rem;
+}
+
+.back-link a {
+  color: var(--text-muted);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.back-link a:hover {
+  color: var(--text);
+}
+
+.game-content {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 2rem 1.75rem;
+  box-shadow: var(--shadow);
+}
+
+.game-content h1 {
+  margin: 0 0 0.5rem;
+  font-size: clamp(1.75rem, 4vw, 2.25rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.game-tagline {
+  margin: 0 0 2rem;
+  color: var(--text-muted);
+  font-size: 1.05rem;
+  line-height: 1.5;
+}
+
+.game-content section {
+  margin-bottom: 2rem;
+}
+
+.game-content section:last-child {
+  margin-bottom: 0;
+}
+
+.game-content h2 {
+  margin: 0 0 0.75rem;
+  font-size: 1.2rem;
+}
+
+.game-content p {
+  margin: 0 0 1rem;
+  color: var(--text-muted);
+}
+
+.game-content ul {
+  margin: 0 0 1rem;
+  padding-left: 1.35rem;
+  color: var(--text-muted);
+}
+
+.game-content li {
+  margin-bottom: 0.35rem;
+}
+
+.game-content .btn-link {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.legal-note-inline {
+  margin: 0.5rem 0 0;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
 .contact-block {
   text-align: center;
   margin-top: 2.5rem;
