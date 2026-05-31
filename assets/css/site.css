@@ -21,7 +21,6 @@
   --link: #b8d4f0;
   --link-hover: #e8f4ff;
   --accent: #e8e8e8;
-  --logo-box-bg: transparent;
   --shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
 }
 
@@ -35,7 +34,6 @@
   --link: #0d47a1;
   --link-hover: #1565c0;
   --accent: #1a1a1a;
-  --logo-box-bg: #000000;
   --shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
 }
 
@@ -117,22 +115,15 @@ a:hover {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background: var(--logo-box-bg);
   border-radius: var(--radius);
-  padding: 4px;
   line-height: 0;
-  transition: background-color var(--transition);
-}
-
-[data-theme="light"] .logo-box {
-  background: #000000;
-  padding: 6px;
+  overflow: hidden;
 }
 
 .logo-box img {
   width: 40px;
   height: 40px;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .logo-box--lg img {
@@ -241,11 +232,6 @@ a:hover {
 
 .hero .logo-box--lg {
   margin: 0 auto 1.5rem;
-  padding: 12px;
-}
-
-[data-theme="light"] .hero .logo-box--lg {
-  padding: 16px;
 }
 
 .hero h1 {
