@@ -73,6 +73,61 @@ When Privacy Policy, Terms, or Account Deletion page change:
 - **Account deletion URL** (Google Play): use `https://d3k2-studio.github.io/exploding-area/delete-account.html` — page must name **Exploding Area** / **D3K2 Studio**, list deletion steps, and specify deleted vs retained data and retention periods
 - Keep URLs **stable**; path changes break store listings
 
+## Google Play Console — Account deletion URL (setup)
+
+Use this checklist after changes are **pushed to GitHub** and GitHub Pages has published the site.
+
+### URL to submit
+
+```
+https://d3k2-studio.github.io/exploding-area/delete-account.html
+```
+
+### Before you open Play Console
+
+1. Push all commits to the default branch (`main` / `master`).
+2. Wait 1–5 minutes for GitHub Pages to rebuild.
+3. Open the URL in a **private/incognito** browser window (no login).
+4. Confirm the page loads over **HTTPS**, shows **Exploding Area** and **D3K2 Studio**, lists deletion steps, deleted vs retained data, retention periods, and **d3k2studio@gmail.com**.
+
+### Where to enter the URL in Play Console
+
+Google may label this field slightly differently by locale. Typical path:
+
+1. Open [Google Play Console](https://play.google.com/console).
+2. Select **Exploding Area**.
+3. Left menu: **Policy and programs** → **App content** (or **Policy** → **App content**).
+4. Find **Data safety** → **Manage** (or open the Data safety form).
+5. In the **Data deletion** / **Account deletion** section:
+   - Answer that users **can request account or data deletion** (Play Games–linked data counts when the app syncs user progress online).
+   - Paste the URL above into **Delete account URL** / **Web resource for account deletion** / similar field.
+6. Ensure answers in the Data safety form **match** what the page states (local delete, email request for cloud/Play Games data, 30 business days processing, etc.).
+7. **Save**, then send the app listing / policy changes for **review** if prompted.
+
+Optional second location (if shown separately):
+
+- **App content** → **Account deletion** → **Manage** → enter the same URL.
+
+Official reference: [Understanding Google Play’s app account deletion requirements](https://support.google.com/googleplay/android-developer/answer/13327111).
+
+### Related store URLs (same listing)
+
+| Field | URL |
+|-------|-----|
+| Privacy Policy | https://d3k2-studio.github.io/privacy-policy.html |
+| Terms (if requested) | https://d3k2-studio.github.io/terms-of-service.html |
+| Account / data deletion | https://d3k2-studio.github.io/exploding-area/delete-account.html |
+
+### After submission
+
+- [ ] Store listing **Data safety** section shows the deletion link (may take time after review).
+- [ ] Process deletion emails sent to **d3k2studio@gmail.com** within the stated **30 business days**.
+- [ ] If you change the page path or process, update Play Console and bump **Last Updated** on the HTML.
+
+### In-app discoverability (recommended)
+
+Google expects users to find deletion options without reinstalling the app. Consider adding a link to this URL from in-game **Settings**, **Legal**, or **Support** (future game update — not required for the website repo alone).
+
 ## Third-party services mentioned in legal text
 
 Current list (keep PP and ToS aligned when adding/removing SDKs):
