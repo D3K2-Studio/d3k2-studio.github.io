@@ -6,6 +6,7 @@
 |----|-------------|----------|
 | R1 | Publish **Privacy Policy** and **Terms of Service** at stable public HTTPS URLs | Must |
 | R2 | Support **Google Play** and **App Store** policy URL fields | Must |
+| R2a | Publish **Account & Data Deletion** page at stable public HTTPS URL for Google Play account-deletion link | Must |
 | R3 | Present **D3K2 Studio** brand and game **Exploding Area** | Should |
 | R4 | Provide public **contact email** | Must |
 
@@ -22,14 +23,17 @@
 | Page | Language | Content source |
 |------|----------|----------------|
 | Home (`index.html`) | Vietnamese + English + Chinese + Japanese (dropdown) | Hand-written marketing copy |
+| Exploding Area (`exploding-area/index.html`) | Vietnamese + English + Chinese + Japanese (dropdown) | Hand-written marketing copy |
 | Privacy Policy | English only | `docs/legal-sources/PP.txt` → `privacy-policy.html` |
 | Terms of Service | English only | `docs/legal-sources/ToS.txt` → `terms-of-service.html` |
+| Account & Data Deletion | English only | `docs/legal-sources/AccountDeletion.txt` → `exploding-area/delete-account.html` |
 
 ### 3.2 Navigation
 
-- Global header: Home, Privacy, Terms
+- Global header: Home, Privacy, Terms (Exploding Area on game subpages)
 - Global footer: copyright, legal links, email
 - ToS §12 links to Privacy Policy
+- `exploding-area/index.html` Legal section links to Privacy Policy, Terms, and Account & Data Deletion
 
 ### 3.3 Theme
 
@@ -53,7 +57,7 @@
 ### 3.5 Contact
 
 - Email: **d3k2studio@gmail.com**
-- Must appear: home contact block, footer (all pages), PP §12, ToS §15
+- Must appear: home contact block, footer (all pages), PP §12, ToS §15, delete-account §5
 - Use `mailto:` links
 
 ## 4. Non-functional requirements
@@ -87,13 +91,13 @@
 
 ## 7. Acceptance criteria (release checklist)
 
-- [ ] All three pages load on GitHub Pages over HTTPS
+- [ ] All public pages load on GitHub Pages over HTTPS (home, game, PP, ToS, account deletion)
 - [ ] Theme toggle works; preference survives reload
 - [ ] Light mode: logo visible on black `.logo-box`
 - [ ] Home VI/EN toggle works
 - [ ] PP has 12 sections; ToS has 15 sections
 - [ ] Email correct everywhere
-- [ ] Store URLs pasted into Play Console / App Store Connect
+- [ ] Store URLs pasted into Play Console / App Store Connect (privacy, terms, account deletion URL)
 
 ## 8. Constants (single source of truth)
 
@@ -105,5 +109,7 @@ Update these in **all** places when they change (see [CONTENT.md](CONTENT.md)):
 | Game name | Exploding Area |
 | Contact email | d3k2studio@gmail.com |
 | Copyright year | 2026 |
-| Legal last updated | May 2026 |
+| Legal last updated (PP / ToS) | May 2026 |
+| Account deletion last updated | June 2026 |
+| Account deletion URL | https://d3k2-studio.github.io/exploding-area/delete-account.html |
 | Site base URL | https://d3k2-studio.github.io |
