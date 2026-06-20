@@ -1,0 +1,139 @@
+# Account and Data Deletion
+
+**Last Updated: June 2026**
+
+This page explains how to request deletion of your data associated with **Exploding Area** (“the Game”), developed by **D3K2 Studio** (“we”, “our”, or “us”).
+
+The Game does not require a separate D3K2 Studio account. When you use online features, your progress and related data may be linked to **Google Play Games Services** through your Google account.
+
+This page is provided to meet Google Play requirements for account and data deletion. For general privacy practices, see our Privacy Policy at https://d3k2-studio.github.io/privacy-policy.html
+
+---
+
+# 1. What Data Is Associated With Your Use of the Game
+
+Depending on how you play, the Game may store or sync the following types of data:
+
+## Data Stored on Your Device
+
+* Local gameplay progress and save data
+* In-game settings and preferences
+* Temporary gameplay data
+
+## Data Linked Through Google Play Games Services
+
+If you sign in to Google Play Games in the Game, the following may be associated with your Google Play Games profile:
+
+* Google Play Games Player ID
+* Display name provided by Google Play Games
+* Authentication status
+* Cloud save data (saved games synced through Play Games Services, if enabled)
+* Achievements and leaderboard entries for Exploding Area (if those features are enabled)
+
+We do not operate a separate login system and do not collect passwords for a D3K2 Studio account.
+
+---
+
+# 2. How to Delete Your Game Data
+
+Follow the steps below based on what you want to remove.
+
+## Step A — Delete Local Data on Your Device
+
+To remove save data and settings stored on your device:
+
+1. Open your device **Settings**.
+2. Go to **Apps** (or **Applications**) and select **Exploding Area**.
+3. Tap **Storage** (or **Storage & cache**).
+4. Tap **Clear storage** / **Clear data** (wording may vary by device).
+5. Alternatively, **uninstall** the Game from your device.
+
+This removes local progress, settings, and cached data on that device. It does not automatically delete cloud save data or Play Games profile data.
+
+## Step B — Sign Out of Google Play Games (Optional)
+
+If the Game offers a sign-out option for Google Play Games, you may use it to disconnect your current session from Play Games Services.
+
+Signing out stops further syncing under that Google account in the Game but may not delete data already stored in Google Play Games or in cloud saves.
+
+## Step C — Request Deletion of Game-Related Cloud Data
+
+To request deletion of Exploding Area data stored through Google Play Games Services (such as cloud saves, achievements, or leaderboard entries managed for the Game), email us:
+
+**Email:** d3k2studio@gmail.com
+
+**Suggested subject line:** Exploding Area — Account/Data Deletion Request
+
+**Please include:**
+
+* The Google Play Games display name associated with your play (if known)
+* Your Google Play Games Player ID (if shown in the Game or Play Games app)
+* A brief description of the data you want deleted
+* Confirmation that you are the owner of the Google account used with the Game
+
+We may ask for additional information to verify your request before processing deletion.
+
+**Expected processing time:** We aim to complete verified deletion requests within **30 business days**. We will confirm by email when processing is finished or if we need more information.
+
+## Step D — Manage or Delete Your Google Account Data
+
+Some data is controlled by Google through your Google account and Google Play Games profile, not by D3K2 Studio.
+
+To review or delete Google account data, visit:
+
+* Google Account: https://myaccount.google.com/
+* Google Play Games profile and activity settings (available through your Google account or Play Games app)
+
+Deleting your Google account or Play Games data through Google may affect data across multiple apps and games, not only Exploding Area.
+
+---
+
+# 3. What Data Is Deleted or Retained
+
+## Data That Is Deleted
+
+When you follow the steps above, the following may be deleted:
+
+| Data type | Where it is stored | When it is deleted |
+|-----------|-------------------|-------------------|
+| Local save data, settings, and cached files | Your device | Immediately when you clear app storage or uninstall the Game |
+| Cloud save and other Exploding Area data linked to Play Games | Google Play Games Services / our game backend (if applicable) | Within **30 business days** after we verify your email request (Step C) |
+| Achievements and leaderboard entries for Exploding Area (if applicable) | Google Play Games Services | After verified deletion request, or when removed through Google account tools |
+| Play Games Player ID and display name as used in the Game | Google Play Games Services | Disconnected when you sign out; broader removal follows Google account settings or verified deletion request |
+
+## Data That May Be Retained
+
+We may retain limited information in the following cases:
+
+| Data type | Reason | Retention period |
+|-----------|--------|------------------|
+| Copies of support or deletion-request emails | To handle your request, resolve disputes, and comply with legal obligations | Up to **12 months** after the request is closed |
+| Anonymized or aggregated data that cannot identify you | Statistical or operational purposes where permitted by law | As long as reasonably necessary for those purposes, without personal identification |
+| Data held by Google (Google account, Play Games profile) | Managed by Google under Google’s policies | According to Google’s retention and deletion policies |
+
+We do not retain local device data after you clear storage or uninstall the Game from that device.
+
+---
+
+# 4. Important Notes
+
+* Uninstalling the Game or clearing local data does **not** by itself delete cloud save data or Play Games achievements/leaderboards.
+* Email requests (Step C) are required if you want D3K2 Studio to delete Exploding Area data stored through Google Play Games Services on our side.
+* We cannot delete your entire Google account. That must be done through Google.
+* If you reinstall the Game after deletion, you may start with a fresh local profile; previously deleted cloud data may not be recoverable.
+
+---
+
+# 5. Contact
+
+If you have questions about account or data deletion for Exploding Area, contact:
+
+**D3K2 Studio**
+Email: d3k2studio@gmail.com
+
+Related documents:
+
+* Privacy Policy: https://d3k2-studio.github.io/privacy-policy.html
+* Terms of Service: https://d3k2-studio.github.io/terms-of-service.html
+
+© 2026 D3K2 Studio. All rights reserved.
