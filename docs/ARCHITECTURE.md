@@ -8,6 +8,7 @@ flowchart TB
     Browser[Web browser]
     PlayStore[Google Play Console]
     AppStore[App Store Connect]
+    AdMob[Google AdMob crawler]
     Player[Player / reviewer]
   end
 
@@ -20,8 +21,10 @@ flowchart TB
   Player --> Browser
   PlayStore -->|"Privacy / Terms URL"| Pages
   AppStore -->|"Privacy / Terms URL"| Pages
+  AdMob -->|"GET /app-ads.txt"| Pages
   Repo -->|"push main"| Pages
 ```
+
 
 ## Page map
 
@@ -30,11 +33,14 @@ flowchart LR
   Home[index.html]
   PP[privacy-policy.html]
   ToS[terms-of-service.html]
+  AppAds[app-ads.txt]
 
   Home -->|nav| PP
   Home -->|nav| ToS
   ToS -->|"§12 link"| PP
 ```
+
+Root static files also include **`app-ads.txt`** (AdMob IAB authorization; not linked from nav). See [CONTENT.md](CONTENT.md#admob-app-adstxt).
 
 ## Runtime (browser)
 
