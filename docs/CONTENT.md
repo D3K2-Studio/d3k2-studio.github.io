@@ -17,20 +17,25 @@ The `references/` folder at repo root was used during initial import; **do not r
 | Page | URL |
 |------|-----|
 | Home | https://d3k2-studio.github.io/ |
-| Exploding Area (game) | https://d3k2-studio.github.io/exploding-area/ |
+| Exploding Arena (game page) | https://d3k2-studio.github.io/exploding-area/ |
 | Privacy Policy | https://d3k2-studio.github.io/privacy-policy.html |
 | Terms of Service | https://d3k2-studio.github.io/terms-of-service.html |
 | Account & Data Deletion | https://d3k2-studio.github.io/exploding-area/delete-account.html |
 | AdMob app-ads.txt | https://d3k2-studio.github.io/app-ads.txt |
+| **Google Play (Android)** | https://play.google.com/store/apps/details?id=com.d3k2studio.explodingarena |
+| App Store (iOS) | *Coming soon — add URL when live* |
 
 GitHub repo: **D3K2-Studio/D3K2-Studio.github.io** (org site — served at domain root, not `/repo-name/`).
+
+**Note:** Site URL path `/exploding-area/` is kept for stability; public brand name is **Exploding Arena** (matches Google Play listing).
 
 ## Brand strings (must stay consistent)
 
 | String | Value |
 |--------|-------|
 | Studio | D3K2 Studio |
-| Game | Exploding Area |
+| Game | Exploding Arena |
+| Package ID (Android) | `com.d3k2studio.explodingarena` |
 | Email | d3k2studio@gmail.com |
 | Copyright | © 2026 D3K2 Studio. All rights reserved. |
 
@@ -48,8 +53,28 @@ Search repo for `d3k2studio@gmail.com` after any email change.
 
 Home blocks use `data-lang="vi"`, `data-lang="en"`, `data-lang="zh"`, and `data-lang="ja"`. When editing:
 
-- Keep both languages roughly equivalent in meaning
+- Keep languages roughly equivalent in meaning
 - Do not put legal obligations only in Vietnamese — binding text is English PP/ToS
+- Game card status: **Available on Google Play**; App Store still “coming soon” until iOS ships
+- Google Play badge on home must open the Play listing (`target="_blank"` + `rel="noopener noreferrer"`); game detail link stays on `/exploding-area/` (do not nest `<a>` tags)
+
+## Store badges (Google Play)
+
+Official localized badges live under `assets/images/store/`:
+
+| File | Locale |
+|------|--------|
+| `google-play-badge-en.png` | English — “Get it on Google Play” |
+| `google-play-badge-vi.png` | Vietnamese — “Tải trên Google Play” |
+| `google-play-badge-zh.png` | Chinese (zh-CN) |
+| `google-play-badge-ja.png` | Japanese |
+
+Source: [Google Play badge assets](https://play.google.com/intl/en_us/badges/). Do not modify artwork (colors, proportions, or wording). CSS: `.store-badge` / `.store-badges` in `assets/css/site.css`.
+
+Used on:
+
+- `index.html` — home game cards
+- `exploding-area/index.html` — CTA under tagline + Platforms section
 
 ## Legal update checklist
 
@@ -71,8 +96,9 @@ When Privacy Policy, Terms, or Account Deletion page change:
 - URLs must be **public** (no login)
 - URLs must use **HTTPS** (GitHub Pages default)
 - Privacy Policy URL is mandatory for apps that collect data (ads, analytics, accounts)
-- **Account deletion URL** (Google Play): use `https://d3k2-studio.github.io/exploding-area/delete-account.html` — page must name **Exploding Area** / **D3K2 Studio**, list deletion steps, and specify deleted vs retained data and retention periods
+- **Account deletion URL** (Google Play): use `https://d3k2-studio.github.io/exploding-area/delete-account.html` — page must name **Exploding Arena** / **D3K2 Studio**, list deletion steps, and specify deleted vs retained data and retention periods
 - Keep URLs **stable**; path changes break store listings
+- Website developer / marketing URL may point at `https://d3k2-studio.github.io/exploding-area/`
 
 ## Google Play Console — Account deletion URL (setup)
 
@@ -89,14 +115,14 @@ https://d3k2-studio.github.io/exploding-area/delete-account.html
 1. Push all commits to the default branch (`main` / `master`).
 2. Wait 1–5 minutes for GitHub Pages to rebuild.
 3. Open the URL in a **private/incognito** browser window (no login).
-4. Confirm the page loads over **HTTPS**, shows **Exploding Area** and **D3K2 Studio**, lists deletion steps, deleted vs retained data, retention periods, and **d3k2studio@gmail.com**.
+4. Confirm the page loads over **HTTPS**, shows **Exploding Arena** and **D3K2 Studio**, lists deletion steps, deleted vs retained data, retention periods, and **d3k2studio@gmail.com**.
 
 ### Where to enter the URL in Play Console
 
 Google may label this field slightly differently by locale. Typical path:
 
 1. Open [Google Play Console](https://play.google.com/console).
-2. Select **Exploding Area**.
+2. Select **Exploding Arena**.
 3. Left menu: **Policy and programs** → **App content** (or **Policy** → **App content**).
 4. Find **Data safety** → **Manage** (or open the Data safety form).
 5. In the **Data deletion** / **Account deletion** section:
