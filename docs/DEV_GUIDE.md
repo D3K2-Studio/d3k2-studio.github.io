@@ -14,6 +14,7 @@ No npm, no bundler, no framework.
 ```
 /
 ├── .nojekyll                 # Disable Jekyll
+├── app-ads.txt               # AdMob authorization (IAB app-ads.txt)
 ├── index.html                # Home (bilingual)
 ├── privacy-policy.html       # Legal EN
 ├── terms-of-service.html     # Legal EN
@@ -25,6 +26,8 @@ No npm, no bundler, no framework.
 │   └── images/logo-512.png   # Studio logo (white on transparent)
 └── docs/                     # Project documentation
 ```
+
+`app-ads.txt` must stay at domain root so `https://d3k2-studio.github.io/app-ads.txt` resolves. Details: [CONTENT.md](CONTENT.md#admob-app-adstxt).
 
 ## Style & coding rules
 
@@ -143,6 +146,7 @@ See [CONTENT.md](CONTENT.md). Summary:
 | Logo invisible in light mode | Missing `.logo-box` | Wrap img in `.logo-box` |
 | Assets 404 locally | Opened `file://` | Use `python -m http.server` |
 | Jekyll breaks paths | No `.nojekyll` | Keep file at root |
+| AdMob app-ads.txt not found | File missing from root or wrong domain in AdMob | Keep `/app-ads.txt` at repo root; website URL must be `https://d3k2-studio.github.io/` |
 
 ## Future extensions (if needed)
 

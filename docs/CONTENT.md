@@ -21,6 +21,7 @@ The `references/` folder at repo root was used during initial import; **do not r
 | Privacy Policy | https://d3k2-studio.github.io/privacy-policy.html |
 | Terms of Service | https://d3k2-studio.github.io/terms-of-service.html |
 | Account & Data Deletion | https://d3k2-studio.github.io/exploding-area/delete-account.html |
+| AdMob app-ads.txt | https://d3k2-studio.github.io/app-ads.txt |
 
 GitHub repo: **D3K2-Studio/D3K2-Studio.github.io** (org site — served at domain root, not `/repo-name/`).
 
@@ -127,6 +128,33 @@ Official reference: [Understanding Google Play’s app account deletion requirem
 ### In-app discoverability (recommended)
 
 Google expects users to find deletion options without reinstalling the app. Consider adding a link to this URL from in-game **Settings**, **Legal**, or **Support** (future game update — not required for the website repo alone).
+
+## AdMob app-ads.txt
+
+Authorizes Google AdMob as a direct seller for this studio website. Required when the developer website URL in AdMob / store listings points at this GitHub Pages domain.
+
+### File
+
+| Item | Value |
+|------|-------|
+| Path in repo | `/app-ads.txt` (site root, next to `index.html`) |
+| Live URL | https://d3k2-studio.github.io/app-ads.txt |
+| Publisher ID | `pub-1197028612870832` |
+| Line format | `google.com, pub-1197028612870832, DIRECT, f08c47fec0942fa0` |
+
+`f08c47fec0942fa0` is Google’s fixed certification authority ID — do not change it.
+
+### Checklist after deploy
+
+- [ ] Push to `main`; wait for GitHub Pages rebuild
+- [ ] Open https://d3k2-studio.github.io/app-ads.txt in a private window; confirm the publisher line is visible over HTTPS
+- [ ] In AdMob: **App** → **App-ads.txt** (or account app-ads tools) → ensure the crawler website matches `https://d3k2-studio.github.io/`
+- [ ] Wait for Google crawl status (often 24h–a few days); re-check if status stays pending
+
+### When to edit
+
+- Publisher ID change → update the line in `/app-ads.txt` and this section
+- Additional authorized sellers (mediation partners) → append more CSV lines per [IAB app-ads.txt](https://iabtechlab.com/ads-txt/); keep Google’s DIRECT line
 
 ## Third-party services mentioned in legal text
 
