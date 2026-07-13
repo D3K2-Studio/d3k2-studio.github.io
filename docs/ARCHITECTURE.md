@@ -31,16 +31,27 @@ flowchart TB
 ```mermaid
 flowchart LR
   Home[index.html]
+  Game[exploding-area/index.html]
   PP[privacy-policy.html]
   ToS[terms-of-service.html]
+  Delete[exploding-area/delete-account.html]
   AppAds[app-ads.txt]
+  Play[Google Play listing]
 
   Home -->|nav| PP
   Home -->|nav| ToS
+  Home -->|game card| Game
+  Home -->|badge| Play
+  Game -->|badge| Play
+  Game -->|legal| Delete
+  Game -->|legal| PP
+  Game -->|legal| ToS
   ToS -->|"§12 link"| PP
 ```
 
 Root static files also include **`app-ads.txt`** (AdMob IAB authorization; not linked from nav). See [CONTENT.md](CONTENT.md#admob-app-adstxt).
+
+Play Store listing: `https://play.google.com/store/apps/details?id=com.d3k2studio.explodingarena` (brand **Exploding Arena**; site path remains `/exploding-area/`).
 
 ## Runtime (browser)
 
@@ -62,11 +73,14 @@ No server-side logic. All state is client `localStorage` or OS preference.
 
 ## Asset dependencies
 
-| Page | CSS | theme-init | theme.js | lang.js |
-|------|-----|--------------|----------|---------|
-| index.html | yes | yes | yes | yes |
-| privacy-policy.html | yes | yes | yes | no |
-| terms-of-service.html | yes | yes | yes | no |
+| Page | CSS | theme-init | theme.js | lang.js | Play badge |
+|------|-----|--------------|----------|---------|------------|
+| index.html | yes | yes | yes | yes | yes |
+| exploding-area/index.html | yes | yes | yes | yes | yes |
+| exploding-area/credits.html | yes | yes | yes | yes | no |
+| exploding-area/delete-account.html | yes | yes | yes | no | no |
+| privacy-policy.html | yes | yes | yes | no | no |
+| terms-of-service.html | yes | yes | yes | no | no |
 
 ## Deployment model
 

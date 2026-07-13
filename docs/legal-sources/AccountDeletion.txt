@@ -2,7 +2,7 @@
 
 **Last Updated: June 2026**
 
-This page explains how to request deletion of your data associated with **Exploding Area** (“the Game”), developed by **D3K2 Studio** (“we”, “our”, or “us”).
+This page explains how to request deletion of your data associated with **Exploding Arena** (“the Game”), developed by **D3K2 Studio** (“we”, “our”, or “us”).
 
 The Game does not require a separate D3K2 Studio account. When you use online features, your progress and related data may be linked to **Google Play Games Services** through your Google account.
 
@@ -28,7 +28,7 @@ If you sign in to Google Play Games in the Game, the following may be associated
 * Display name provided by Google Play Games
 * Authentication status
 * Cloud save data (saved games synced through Play Games Services, if enabled)
-* Achievements and leaderboard entries for Exploding Area (if those features are enabled)
+* Achievements and leaderboard entries for Exploding Arena (if those features are enabled)
 
 We do not operate a separate login system and do not collect passwords for a D3K2 Studio account.
 
@@ -43,7 +43,7 @@ Follow the steps below based on what you want to remove.
 To remove save data and settings stored on your device:
 
 1. Open your device **Settings**.
-2. Go to **Apps** (or **Applications**) and select **Exploding Area**.
+2. Go to **Apps** (or **Applications**) and select **Exploding Arena**.
 3. Tap **Storage** (or **Storage & cache**).
 4. Tap **Clear storage** / **Clear data** (wording may vary by device).
 5. Alternatively, **uninstall** the Game from your device.
@@ -58,11 +58,11 @@ Signing out stops further syncing under that Google account in the Game but may 
 
 ## Step C — Request Deletion of Game-Related Cloud Data
 
-To request deletion of Exploding Area data stored through Google Play Games Services (such as cloud saves, achievements, or leaderboard entries managed for the Game), email us:
+To request deletion of Exploding Arena data stored through Google Play Games Services (such as cloud saves, achievements, or leaderboard entries managed for the Game), email us:
 
 **Email:** d3k2studio@gmail.com
 
-**Suggested subject line:** Exploding Area — Account/Data Deletion Request
+**Suggested subject line:** Exploding Arena — Account/Data Deletion Request
 
 **Please include:**
 
@@ -84,7 +84,7 @@ To review or delete Google account data, visit:
 * Google Account: https://myaccount.google.com/
 * Google Play Games profile and activity settings (available through your Google account or Play Games app)
 
-Deleting your Google account or Play Games data through Google may affect data across multiple apps and games, not only Exploding Area.
+Deleting your Google account or Play Games data through Google may affect data across multiple apps and games, not only Exploding Arena.
 
 ---
 
@@ -97,8 +97,8 @@ When you follow the steps above, the following may be deleted:
 | Data type | Where it is stored | When it is deleted |
 |-----------|-------------------|-------------------|
 | Local save data, settings, and cached files | Your device | Immediately when you clear app storage or uninstall the Game |
-| Cloud save and other Exploding Area data linked to Play Games | Google Play Games Services / our game backend (if applicable) | Within **30 business days** after we verify your email request (Step C) |
-| Achievements and leaderboard entries for Exploding Area (if applicable) | Google Play Games Services | After verified deletion request, or when removed through Google account tools |
+| Cloud save and other Exploding Arena data linked to Play Games | Google Play Games Services / our game backend (if applicable) | Within **30 business days** after we verify your email request (Step C) |
+| Achievements and leaderboard entries for Exploding Arena (if applicable) | Google Play Games Services | After verified deletion request, or when removed through Google account tools |
 | Play Games Player ID and display name as used in the Game | Google Play Games Services | Disconnected when you sign out; broader removal follows Google account settings or verified deletion request |
 
 ## Data That May Be Retained
@@ -118,7 +118,7 @@ We do not retain local device data after you clear storage or uninstall the Game
 # 4. Important Notes
 
 * Uninstalling the Game or clearing local data does **not** by itself delete cloud save data or Play Games achievements/leaderboards.
-* Email requests (Step C) are required if you want D3K2 Studio to delete Exploding Area data stored through Google Play Games Services on our side.
+* Email requests (Step C) are required if you want D3K2 Studio to delete Exploding Arena data stored through Google Play Games Services on our side.
 * We cannot delete your entire Google account. That must be done through Google.
 * If you reinstall the Game after deletion, you may start with a fresh local profile; previously deleted cloud data may not be recoverable.
 
@@ -126,7 +126,7 @@ We do not retain local device data after you clear storage or uninstall the Game
 
 # 5. Contact
 
-If you have questions about account or data deletion for Exploding Area, contact:
+If you have questions about account or data deletion for Exploding Arena, contact:
 
 **D3K2 Studio**
 Email: d3k2studio@gmail.com

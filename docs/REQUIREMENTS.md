@@ -7,7 +7,8 @@
 | R1 | Publish **Privacy Policy** and **Terms of Service** at stable public HTTPS URLs | Must |
 | R2 | Support **Google Play** and **App Store** policy URL fields | Must |
 | R2a | Publish **Account & Data Deletion** page at stable public HTTPS URL for Google Play account-deletion link | Must |
-| R3 | Present **D3K2 Studio** brand and game **Exploding Area** | Should |
+| R3 | Present **D3K2 Studio** brand and game **Exploding Arena** | Should |
+| R3a | Link **Google Play** listing from home and game pages (official badges) | Should |
 | R4 | Provide public **contact email** | Must |
 
 ## 2. Audience
@@ -23,14 +24,14 @@
 | Page | Language | Content source |
 |------|----------|----------------|
 | Home (`index.html`) | Vietnamese + English + Chinese + Japanese (dropdown) | Hand-written marketing copy |
-| Exploding Area (`exploding-area/index.html`) | Vietnamese + English + Chinese + Japanese (dropdown) | Hand-written marketing copy |
+| Exploding Arena (`exploding-area/index.html`) | Vietnamese + English + Chinese + Japanese (dropdown) | Hand-written marketing copy + Play Store CTA |
 | Privacy Policy | English only | `docs/legal-sources/PP.txt` → `privacy-policy.html` |
 | Terms of Service | English only | `docs/legal-sources/ToS.txt` → `terms-of-service.html` |
 | Account & Data Deletion | English only | `docs/legal-sources/AccountDeletion.txt` → `exploding-area/delete-account.html` |
 
 ### 3.2 Navigation
 
-- Global header: Home, Privacy, Terms (Exploding Area on game subpages)
+- Global header: Home, Privacy, Terms (Exploding Arena on game subpages)
 - Global footer: copyright, legal links, email
 - ToS §12 links to Privacy Policy
 - `exploding-area/index.html` Legal section links to Privacy Policy, Terms, and Account & Data Deletion
@@ -84,7 +85,8 @@
 
 - Custom domain / DNS setup
 - Vietnamese translation of PP / ToS
-- Blog, press kit, download links
+- Blog / press kit
+- App Store (iOS) download link (add when released)
 - Analytics on website
 - CI/CD pipelines
 - Server-side forms or contact API
@@ -94,7 +96,9 @@
 - [ ] All public pages load on GitHub Pages over HTTPS (home, game, PP, ToS, account deletion)
 - [ ] Theme toggle works; preference survives reload
 - [ ] Light mode: logo visible on black `.logo-box`
-- [ ] Home VI/EN toggle works
+- [ ] Home VI/EN/ZH/JA language dropdown works
+- [ ] Brand name **Exploding Arena** consistent on marketing + legal pages
+- [ ] Google Play badges on home and game page open the live listing
 - [ ] PP has 12 sections; ToS has 15 sections
 - [ ] Email correct everywhere
 - [ ] Store URLs pasted into Play Console / App Store Connect (privacy, terms, account deletion URL)
@@ -106,10 +110,13 @@ Update these in **all** places when they change (see [CONTENT.md](CONTENT.md)):
 | Constant | Current value |
 |----------|---------------|
 | Studio name | D3K2 Studio |
-| Game name | Exploding Area |
+| Game name | Exploding Arena |
+| Android package ID | com.d3k2studio.explodingarena |
+| Google Play URL | https://play.google.com/store/apps/details?id=com.d3k2studio.explodingarena |
 | Contact email | d3k2studio@gmail.com |
 | Copyright year | 2026 |
 | Legal last updated (PP / ToS) | May 2026 |
 | Account deletion last updated | June 2026 |
 | Account deletion URL | https://d3k2-studio.github.io/exploding-area/delete-account.html |
 | Site base URL | https://d3k2-studio.github.io |
+| Game page path (stable) | `/exploding-area/` |

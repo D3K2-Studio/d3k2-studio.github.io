@@ -315,6 +315,43 @@ a:hover {
   color: var(--text);
 }
 
+.card--game {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  transition: border-color var(--transition), transform var(--transition);
+}
+
+.card--game:hover {
+  border-color: var(--text-muted);
+  transform: translateY(-2px);
+}
+
+.card--game-body {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  flex: 1;
+}
+
+.card--game-body:hover {
+  color: inherit;
+}
+
+.card--game-body:focus-visible {
+  outline: 2px solid var(--link);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+.card--game .store-badges {
+  margin: 0.25rem 0 0;
+}
+
+.card--game .store-badge img {
+  height: 52px;
+}
+
 .card-cta {
   display: inline-block;
   font-size: 0.9rem;
@@ -322,7 +359,8 @@ a:hover {
   color: var(--link);
 }
 
-.card--link:hover .card-cta {
+.card--link:hover .card-cta,
+.card--game:hover .card-cta {
   color: var(--link-hover);
 }
 
@@ -399,6 +437,35 @@ a:hover {
 .game-content .btn-link {
   font-weight: 600;
   text-decoration: none;
+}
+
+.store-badges {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem 0.75rem;
+  margin: 1rem 0 1.75rem;
+}
+
+.store-badge {
+  display: inline-block;
+  line-height: 0;
+  text-decoration: none;
+}
+
+.store-badge:hover {
+  opacity: 0.92;
+}
+
+.store-badge img {
+  height: 64px;
+  width: auto;
+}
+
+.store-note {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--text-muted);
 }
 
 .legal-note-inline {

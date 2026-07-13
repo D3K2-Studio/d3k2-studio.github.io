@@ -15,19 +15,27 @@ No npm, no bundler, no framework.
 /
 ├── .nojekyll                 # Disable Jekyll
 ├── app-ads.txt               # AdMob authorization (IAB app-ads.txt)
-├── index.html                # Home (bilingual)
+├── index.html                # Home (VI/EN/ZH/JA) + Play Store badge
 ├── privacy-policy.html       # Legal EN
 ├── terms-of-service.html     # Legal EN
+├── exploding-area/
+│   ├── index.html            # Game marketing + Play Store CTA
+│   ├── credits.html
+│   └── delete-account.html   # Play account-deletion URL target
 ├── assets/
-│   ├── css/site.css          # All styles
+│   ├── css/site.css          # All styles (incl. .store-badge)
 │   ├── js/theme-init.js      # FOUC prevention (load in <head>)
 │   ├── js/theme.js           # Theme toggle API
-│   ├── js/lang.js            # Home language toggle
-│   └── images/logo-512.png   # Studio logo (white on transparent)
+│   ├── js/lang.js            # Language dropdown
+│   └── images/
+│       ├── d3k2-studio-logo.png
+│       └── store/            # Official Google Play badges (en/vi/zh/ja)
 └── docs/                     # Project documentation
 ```
 
 `app-ads.txt` must stay at domain root so `https://d3k2-studio.github.io/app-ads.txt` resolves. Details: [CONTENT.md](CONTENT.md#admob-app-adstxt).
+
+Store listing URLs and badge rules: [CONTENT.md](CONTENT.md#public-urls-store-listings) and [CONTENT.md](CONTENT.md#store-badges-google-play).
 
 ## Style & coding rules
 
