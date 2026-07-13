@@ -401,6 +401,35 @@ a:hover {
   text-decoration: none;
 }
 
+.store-badges {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem 0.75rem;
+  margin: 1rem 0 1.75rem;
+}
+
+.store-badge {
+  display: inline-block;
+  line-height: 0;
+  text-decoration: none;
+}
+
+.store-badge:hover {
+  opacity: 0.92;
+}
+
+.store-badge img {
+  height: 64px;
+  width: auto;
+}
+
+.store-note {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
 .legal-note-inline {
   margin: 0.5rem 0 0;
   font-size: 0.85rem;
