@@ -74,7 +74,24 @@ Source: [Google Play badge assets](https://play.google.com/intl/en_us/badges/). 
 Used on:
 
 - `index.html` — home game cards
-- `exploding-area/index.html` — CTA under tagline + Platforms section
+- `exploding-area/index.html` — Install-position CTA in the Play Store–style app header + Platforms section
+
+## Exploding Arena landing (Play Store style header)
+
+`exploding-area/index.html` opens with a compact layout inspired by the [Google Play mobile listing](https://play.google.com/store/apps/details?id=com.d3k2studio.explodingarena):
+
+| Element | Markup / asset | Notes |
+|---------|----------------|-------|
+| App icon | `assets/images/exploding-arena-icon-512.png` + `.game-app-icon` | Squircle mask (`border-radius: 22.37%`) — Adaptive Icon style |
+| Title + studio | `.game-app-meta` | Title **Exploding Arena**, developer line **D3K2 STUDIO** |
+| Age rating | `.age-badge` **3+** + localized label | Marketing badge for ages 3 and up (vi/en/zh/ja) |
+| Install CTA | `.store-badges--install` | Localized Google Play badge directly under the app header |
+| Tagline | `.game-tagline` | Short pitch **below** the Install CTA |
+| Page favicon | Same game icon PNG | Header bar logo stays **D3K2 Studio** site-wide |
+
+CSS classes live in `assets/css/site.css` (`.game-app-header`, `.game-app-icon`, `.age-badge`, `.store-badges--install`).
+
+When replacing the icon art, keep a square PNG (512×512 recommended) and do not commit a pre-rounded raster — the site applies the Play-style mask in CSS.
 
 ## Legal update checklist
 
