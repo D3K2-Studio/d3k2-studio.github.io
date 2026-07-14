@@ -51,7 +51,7 @@ flowchart LR
 
 Root static files also include **`app-ads.txt`** (AdMob IAB authorization; not linked from nav). See [CONTENT.md](CONTENT.md#admob-app-adstxt).
 
-Play Store listing: `https://play.google.com/store/apps/details?id=com.d3k2studio.explodingarena` (brand **Exploding Arena**; site path `/exploding-arena/`). Legacy `/exploding-area/` pages are client-side redirects only.
+Play Store listing: `https://play.google.com/store/apps/details?id=com.d3k2studio.explodingarena` (brand **Exploding Arena**; site path `/exploding-arena/`). Legacy `/exploding-area/` pages are client-side redirects only — see [CONTENT.md](CONTENT.md#legacy-url-redirects-exploding-area--exploding-arena).
 
 ## Runtime (browser)
 

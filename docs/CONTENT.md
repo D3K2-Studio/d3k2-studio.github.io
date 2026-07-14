@@ -29,6 +29,18 @@ GitHub repo: **D3K2-Studio/D3K2-Studio.github.io** (org site — served at domai
 
 **Note:** Site URL path is `/exploding-arena/` (matches brand **Exploding Arena** / Play listing). Legacy `/exploding-area/` URLs redirect to the new path.
 
+## Legacy URL redirects (`exploding-area/` → `exploding-arena/`)
+
+GitHub Pages has no server 301, so compatibility stubs live under `exploding-area/` (meta refresh + `location.replace` + fallback link + canonical to the new URL).
+
+| Legacy path | Canonical target |
+|-------------|------------------|
+| `/exploding-area/` | `/exploding-arena/` |
+| `/exploding-area/credits.html` | `/exploding-arena/credits.html` |
+| `/exploding-area/delete-account.html` | `/exploding-arena/delete-account.html` |
+
+**After deploy:** update Google Play Console **Account deletion URL** (and any marketing/developer website field) to the canonical `/exploding-arena/` URLs above. Keep the stub folder until old links are no longer needed.
+
 ## Brand strings (must stay consistent)
 
 | String | Value |
