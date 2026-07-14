@@ -57,6 +57,7 @@ Home blocks use `data-lang="vi"`, `data-lang="en"`, `data-lang="zh"`, and `data-
 - Do not put legal obligations only in Vietnamese — binding text is English PP/ToS
 - Game card status: **Available on Google Play**; App Store still “coming soon” until iOS ships
 - Google Play badge on home must open the Play listing (`target="_blank"` + `rel="noopener noreferrer"`); game detail link stays on `/exploding-area/` (do not nest `<a>` tags)
+- Game card title row: squircle icon (`.card--game-icon`, 64px) **left of** the title — same PNG as the game landing page; do not rearrange existing copy/CTA/badges
 
 ## Store badges (Google Play)
 
@@ -89,7 +90,9 @@ Used on:
 | Tagline | `.game-tagline` | Short pitch **below** the Install CTA |
 | Page favicon | Same game icon PNG | Header bar logo stays **D3K2 Studio** site-wide |
 
-CSS classes live in `assets/css/site.css` (`.game-app-header`, `.game-app-icon`, `.age-badge`, `.store-badges--install`).
+**Also on home:** `index.html` game cards use the same PNG via `.card--game-icon` (left of title in `.card--game-title`). Home does **not** show the 3+ badge or Play-style meta row.
+
+CSS classes live in `assets/css/site.css` (`.game-app-header`, `.game-app-icon`, `.card--game-icon`, `.age-badge`, `.store-badges--install`).
 
 When replacing the icon art, keep a square PNG (512×512 recommended) and do not commit a pre-rounded raster — the site applies the Play-style mask in CSS.
 

@@ -344,6 +344,27 @@ a:hover {
   border-radius: 4px;
 }
 
+.card--game-title {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 0 0 0.75rem;
+}
+
+.card--game-icon {
+  flex-shrink: 0;
+  width: 64px;
+  height: 64px;
+  border-radius: 22.37%;
+  object-fit: cover;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.18);
+}
+
+.card--game-title h2 {
+  margin: 0;
+  line-height: 1.25;
+}
+
 .card--game .store-badges {
   margin: 0.25rem 0 0;
 }

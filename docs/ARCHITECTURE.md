@@ -75,7 +75,7 @@ No server-side logic. All state is client `localStorage` or OS preference.
 
 | Page | CSS | theme-init | theme.js | lang.js | Play badge | Game icon |
 |------|-----|--------------|----------|---------|------------|-----------|
-| index.html | yes | yes | yes | yes | yes | no |
+| index.html | yes | yes | yes | yes | yes | yes (game card title) |
 | exploding-area/index.html | yes | yes | yes | yes | yes | yes (app header + favicon) |
 | exploding-area/credits.html | yes | yes | yes | yes | no | no |
 | exploding-area/delete-account.html | yes | yes | yes | no | no | no |
