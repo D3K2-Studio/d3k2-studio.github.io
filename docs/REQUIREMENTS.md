@@ -24,17 +24,17 @@
 | Page | Language | Content source |
 |------|----------|----------------|
 | Home (`index.html`) | Vietnamese + English + Chinese + Japanese (dropdown) | Hand-written marketing copy |
-| Exploding Arena (`exploding-area/index.html`) | Vietnamese + English + Chinese + Japanese (dropdown) | Hand-written marketing copy + Play Store CTA |
+| Exploding Arena (`exploding-arena/index.html`) | Vietnamese + English + Chinese + Japanese (dropdown) | Hand-written marketing copy + Play Store CTA |
 | Privacy Policy | English only | `docs/legal-sources/PP.txt` → `privacy-policy.html` |
 | Terms of Service | English only | `docs/legal-sources/ToS.txt` → `terms-of-service.html` |
-| Account & Data Deletion | English only | `docs/legal-sources/AccountDeletion.txt` → `exploding-area/delete-account.html` |
+| Account & Data Deletion | English only | `docs/legal-sources/AccountDeletion.txt` → `exploding-arena/delete-account.html` |
 
 ### 3.2 Navigation
 
 - Global header: Home, Privacy, Terms (Exploding Arena on game subpages)
 - Global footer: copyright, legal links, email
 - ToS §12 links to Privacy Policy
-- `exploding-area/index.html` Legal section links to Privacy Policy, Terms, and Account & Data Deletion
+- `exploding-arena/index.html` Legal section links to Privacy Policy, Terms, and Account & Data Deletion
 
 ### 3.3 Theme
 
@@ -117,6 +117,6 @@ Update these in **all** places when they change (see [CONTENT.md](CONTENT.md)):
 | Copyright year | 2026 |
 | Legal last updated (PP / ToS) | May 2026 |
 | Account deletion last updated | June 2026 |
-| Account deletion URL | https://d3k2-studio.github.io/exploding-area/delete-account.html |
+| Account deletion URL | https://d3k2-studio.github.io/exploding-arena/delete-account.html |
 | Site base URL | https://d3k2-studio.github.io |
-| Game page path (stable) | `/exploding-area/` |
+| Game page path (stable) | `/exploding-arena/` |

@@ -18,10 +18,11 @@ No npm, no bundler, no framework.
 ├── index.html                # Home (VI/EN/ZH/JA) + Play Store badge
 ├── privacy-policy.html       # Legal EN
 ├── terms-of-service.html     # Legal EN
-├── exploding-area/
+├── exploding-arena/
 │   ├── index.html            # Game landing (Play-style header + Install CTA)
 │   ├── credits.html
 │   └── delete-account.html   # Play account-deletion URL target
+├── exploding-area/           # Legacy URL redirects → exploding-arena/
 ├── assets/
 │   ├── css/site.css          # All styles (.store-badge, .game-app-*)
 │   ├── js/theme-init.js      # FOUC prevention (load in <head>)
