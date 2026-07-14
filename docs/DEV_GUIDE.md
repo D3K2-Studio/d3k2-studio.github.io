@@ -29,7 +29,7 @@ No npm, no bundler, no framework.
 │   ├── js/lang.js            # Language dropdown
 │   └── images/
 │       ├── d3k2-studio-logo.png          # Site header brand (all pages)
-│       ├── exploding-arena-icon-512.png  # Game icon + game-page favicon
+│       ├── exploding-arena-icon-512.png  # Game icon (home card + landing + game favicon)
 │       └── store/                        # Official Google Play badges (en/vi/zh/ja)
 └── docs/                     # Project documentation
 ```
