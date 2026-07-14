@@ -18,10 +18,14 @@ No npm, no bundler, no framework.
 ├── index.html                # Home (VI/EN/ZH/JA) + Play Store badge
 ├── privacy-policy.html       # Legal EN
 ├── terms-of-service.html     # Legal EN
-├── exploding-area/
+├── exploding-arena/
 │   ├── index.html            # Game landing (Play-style header + Install CTA)
 │   ├── credits.html
 │   └── delete-account.html   # Play account-deletion URL target
+├── exploding-area/           # Legacy client-side redirects → exploding-arena/
+│   ├── index.html
+│   ├── credits.html
+│   └── delete-account.html
 ├── assets/
 │   ├── css/site.css          # All styles (.store-badge, .game-app-*)
 │   ├── js/theme-init.js      # FOUC prevention (load in <head>)
@@ -36,7 +40,7 @@ No npm, no bundler, no framework.
 
 `app-ads.txt` must stay at domain root so `https://d3k2-studio.github.io/app-ads.txt` resolves. Details: [CONTENT.md](CONTENT.md#admob-app-adstxt).
 
-Store listing URLs, badges, and game landing header: [CONTENT.md](CONTENT.md#public-urls-store-listings), [CONTENT.md](CONTENT.md#store-badges-google-play), and [CONTENT.md](CONTENT.md#exploding-arena-landing-play-store-style-header).
+Store listing URLs, badges, game landing header, and legacy path redirects: [CONTENT.md](CONTENT.md#public-urls-store-listings), [CONTENT.md](CONTENT.md#store-badges-google-play), [CONTENT.md](CONTENT.md#exploding-arena-landing-play-store-style-header), and [CONTENT.md](CONTENT.md#legacy-url-redirects-exploding-area--exploding-arena).
 
 ## Style & coding rules
 

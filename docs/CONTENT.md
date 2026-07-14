@@ -6,7 +6,7 @@
 |----------|-------------------------|----------------|
 | Privacy Policy | [docs/legal-sources/PP.txt](legal-sources/PP.txt) | [privacy-policy.html](../privacy-policy.html) |
 | Terms of Service | [docs/legal-sources/ToS.txt](legal-sources/ToS.txt) | [terms-of-service.html](../terms-of-service.html) |
-| Account & Data Deletion | [docs/legal-sources/AccountDeletion.txt](legal-sources/AccountDeletion.txt) | [exploding-area/delete-account.html](../exploding-area/delete-account.html) |
+| Account & Data Deletion | [docs/legal-sources/AccountDeletion.txt](legal-sources/AccountDeletion.txt) | [exploding-arena/delete-account.html](../exploding-arena/delete-account.html) |
 
 **Workflow:** edit `.txt` → update matching `.html` → bump **Last Updated** → deploy → update in-game/store if required.
 
@@ -17,17 +17,29 @@ The `references/` folder at repo root was used during initial import; **do not r
 | Page | URL |
 |------|-----|
 | Home | https://d3k2-studio.github.io/ |
-| Exploding Arena (game page) | https://d3k2-studio.github.io/exploding-area/ |
+| Exploding Arena (game page) | https://d3k2-studio.github.io/exploding-arena/ |
 | Privacy Policy | https://d3k2-studio.github.io/privacy-policy.html |
 | Terms of Service | https://d3k2-studio.github.io/terms-of-service.html |
-| Account & Data Deletion | https://d3k2-studio.github.io/exploding-area/delete-account.html |
+| Account & Data Deletion | https://d3k2-studio.github.io/exploding-arena/delete-account.html |
 | AdMob app-ads.txt | https://d3k2-studio.github.io/app-ads.txt |
 | **Google Play (Android)** | https://play.google.com/store/apps/details?id=com.d3k2studio.explodingarena |
 | App Store (iOS) | *Coming soon — add URL when live* |
 
 GitHub repo: **D3K2-Studio/D3K2-Studio.github.io** (org site — served at domain root, not `/repo-name/`).
 
-**Note:** Site URL path `/exploding-area/` is kept for stability; public brand name is **Exploding Arena** (matches Google Play listing).
+**Note:** Site URL path is `/exploding-arena/` (matches brand **Exploding Arena** / Play listing). Legacy `/exploding-area/` URLs redirect to the new path.
+
+## Legacy URL redirects (`exploding-area/` → `exploding-arena/`)
+
+GitHub Pages has no server 301, so compatibility stubs live under `exploding-area/` (meta refresh + `location.replace` + fallback link + canonical to the new URL).
+
+| Legacy path | Canonical target |
+|-------------|------------------|
+| `/exploding-area/` | `/exploding-arena/` |
+| `/exploding-area/credits.html` | `/exploding-arena/credits.html` |
+| `/exploding-area/delete-account.html` | `/exploding-arena/delete-account.html` |
+
+**After deploy:** update Google Play Console **Account deletion URL** (and any marketing/developer website field) to the canonical `/exploding-arena/` URLs above. Keep the stub folder until old links are no longer needed.
 
 ## Brand strings (must stay consistent)
 
@@ -44,7 +56,7 @@ GitHub repo: **D3K2-Studio/D3K2-Studio.github.io** (org site — served at domai
 1. `index.html` — contact block + footer
 2. `privacy-policy.html` — §12 Contact
 3. `terms-of-service.html` — §15 Contact
-4. `exploding-area/delete-account.html` — §5 Contact
+4. `exploding-arena/delete-account.html` — §5 Contact
 5. Footer on all pages
 
 Search repo for `d3k2studio@gmail.com` after any email change.
@@ -56,7 +68,7 @@ Home blocks use `data-lang="vi"`, `data-lang="en"`, `data-lang="zh"`, and `data-
 - Keep languages roughly equivalent in meaning
 - Do not put legal obligations only in Vietnamese — binding text is English PP/ToS
 - Game card status: **Available on Google Play**; App Store still “coming soon” until iOS ships
-- Google Play badge on home must open the Play listing (`target="_blank"` + `rel="noopener noreferrer"`); game detail link stays on `/exploding-area/` (do not nest `<a>` tags)
+- Google Play badge on home must open the Play listing (`target="_blank"` + `rel="noopener noreferrer"`); game detail link stays on `/exploding-arena/` (do not nest `<a>` tags)
 - Game card title row: squircle icon (`.card--game-icon`, 64px) **left of** the title — same PNG as the game landing page; do not rearrange existing copy/CTA/badges
 
 ## Store badges (Google Play)
@@ -75,11 +87,11 @@ Source: [Google Play badge assets](https://play.google.com/intl/en_us/badges/). 
 Used on:
 
 - `index.html` — home game cards
-- `exploding-area/index.html` — Install-position CTA in the Play Store–style app header + Platforms section
+- `exploding-arena/index.html` — Install-position CTA in the Play Store–style app header + Platforms section
 
 ## Exploding Arena landing (Play Store style header)
 
-`exploding-area/index.html` opens with a compact layout inspired by the [Google Play mobile listing](https://play.google.com/store/apps/details?id=com.d3k2studio.explodingarena):
+`exploding-arena/index.html` opens with a compact layout inspired by the [Google Play mobile listing](https://play.google.com/store/apps/details?id=com.d3k2studio.explodingarena):
 
 | Element | Markup / asset | Notes |
 |---------|----------------|-------|
@@ -105,7 +117,7 @@ When Privacy Policy, Terms, or Account Deletion page change:
 - [ ] Set **Last Updated: Month YYYY** on HTML
 - [ ] Confirm contact email still correct (PP §12, ToS §15, delete-account §5)
 - [ ] ToS §12 still links to `/privacy-policy.html`
-- [ ] `exploding-area/index.html` Legal section still links to `/exploding-area/delete-account.html`
+- [ ] `exploding-arena/index.html` Legal section still links to `/exploding-arena/delete-account.html`
 - [ ] Push to GitHub; verify live pages
 - [ ] Update Google Play / App Store privacy URL if required
 - [ ] Update Google Play **Account deletion URL** if path or wording requirements change
@@ -116,9 +128,9 @@ When Privacy Policy, Terms, or Account Deletion page change:
 - URLs must be **public** (no login)
 - URLs must use **HTTPS** (GitHub Pages default)
 - Privacy Policy URL is mandatory for apps that collect data (ads, analytics, accounts)
-- **Account deletion URL** (Google Play): use `https://d3k2-studio.github.io/exploding-area/delete-account.html` — page must name **Exploding Arena** / **D3K2 Studio**, list deletion steps, and specify deleted vs retained data and retention periods
-- Keep URLs **stable**; path changes break store listings
-- Website developer / marketing URL may point at `https://d3k2-studio.github.io/exploding-area/`
+- **Account deletion URL** (Google Play): use `https://d3k2-studio.github.io/exploding-arena/delete-account.html` — page must name **Exploding Arena** / **D3K2 Studio**, list deletion steps, and specify deleted vs retained data and retention periods
+- Keep URLs **stable**; path changes break store listings (legacy `/exploding-area/` redirect stubs are temporary compatibility only — update Play Console to the canonical `/exploding-arena/` URL)
+- Website developer / marketing URL may point at `https://d3k2-studio.github.io/exploding-arena/`
 
 ## Google Play Console — Account deletion URL (setup)
 
@@ -127,7 +139,7 @@ Use this checklist after changes are **pushed to GitHub** and GitHub Pages has p
 ### URL to submit
 
 ```
-https://d3k2-studio.github.io/exploding-area/delete-account.html
+https://d3k2-studio.github.io/exploding-arena/delete-account.html
 ```
 
 ### Before you open Play Console
@@ -163,7 +175,7 @@ Official reference: [Understanding Google Play’s app account deletion requirem
 |-------|-----|
 | Privacy Policy | https://d3k2-studio.github.io/privacy-policy.html |
 | Terms (if requested) | https://d3k2-studio.github.io/terms-of-service.html |
-| Account / data deletion | https://d3k2-studio.github.io/exploding-area/delete-account.html |
+| Account / data deletion | https://d3k2-studio.github.io/exploding-arena/delete-account.html |
 
 ### After submission
 

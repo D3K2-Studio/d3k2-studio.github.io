@@ -31,10 +31,10 @@ flowchart TB
 ```mermaid
 flowchart LR
   Home[index.html]
-  Game[exploding-area/index.html]
+  Game[exploding-arena/index.html]
   PP[privacy-policy.html]
   ToS[terms-of-service.html]
-  Delete[exploding-area/delete-account.html]
+  Delete[exploding-arena/delete-account.html]
   AppAds[app-ads.txt]
   Play[Google Play listing]
 
@@ -51,7 +51,7 @@ flowchart LR
 
 Root static files also include **`app-ads.txt`** (AdMob IAB authorization; not linked from nav). See [CONTENT.md](CONTENT.md#admob-app-adstxt).
 
-Play Store listing: `https://play.google.com/store/apps/details?id=com.d3k2studio.explodingarena` (brand **Exploding Arena**; site path remains `/exploding-area/`).
+Play Store listing: `https://play.google.com/store/apps/details?id=com.d3k2studio.explodingarena` (brand **Exploding Arena**; site path `/exploding-arena/`). Legacy `/exploding-area/` pages are client-side redirects only — see [CONTENT.md](CONTENT.md#legacy-url-redirects-exploding-area--exploding-arena).
 
 ## Runtime (browser)
 
@@ -76,13 +76,13 @@ No server-side logic. All state is client `localStorage` or OS preference.
 | Page | CSS | theme-init | theme.js | lang.js | Play badge | Game icon |
 |------|-----|--------------|----------|---------|------------|-----------|
 | index.html | yes | yes | yes | yes | yes | yes (game card title) |
-| exploding-area/index.html | yes | yes | yes | yes | yes | yes (app header + favicon) |
-| exploding-area/credits.html | yes | yes | yes | yes | no | no |
-| exploding-area/delete-account.html | yes | yes | yes | no | no | no |
+| exploding-arena/index.html | yes | yes | yes | yes | yes | yes (app header + favicon) |
+| exploding-arena/credits.html | yes | yes | yes | yes | no | no |
+| exploding-arena/delete-account.html | yes | yes | yes | no | no | no |
 | privacy-policy.html | yes | yes | yes | no | no | no |
 | terms-of-service.html | yes | yes | yes | no | no | no |
 
-Game landing (`exploding-area/index.html`) uses a Play Store–style app header (icon squircle, studio line, **3+** age badge, Install-position store CTA). See [CONTENT.md](CONTENT.md#exploding-arena-landing-play-store-style-header). Site header logo remains `d3k2-studio-logo.png` on every page.
+Game landing (`exploding-arena/index.html`) uses a Play Store–style app header (icon squircle, studio line, **3+** age badge, Install-position store CTA). See [CONTENT.md](CONTENT.md#exploding-arena-landing-play-store-style-header). Site header logo remains `d3k2-studio-logo.png` on every page.
 
 ## Deployment model
 
