@@ -73,14 +73,16 @@ No server-side logic. All state is client `localStorage` or OS preference.
 
 ## Asset dependencies
 
-| Page | CSS | theme-init | theme.js | lang.js | Play badge |
-|------|-----|--------------|----------|---------|------------|
-| index.html | yes | yes | yes | yes | yes |
-| exploding-area/index.html | yes | yes | yes | yes | yes |
-| exploding-area/credits.html | yes | yes | yes | yes | no |
-| exploding-area/delete-account.html | yes | yes | yes | no | no |
-| privacy-policy.html | yes | yes | yes | no | no |
-| terms-of-service.html | yes | yes | yes | no | no |
+| Page | CSS | theme-init | theme.js | lang.js | Play badge | Game icon |
+|------|-----|--------------|----------|---------|------------|-----------|
+| index.html | yes | yes | yes | yes | yes | no |
+| exploding-area/index.html | yes | yes | yes | yes | yes | yes (app header + favicon) |
+| exploding-area/credits.html | yes | yes | yes | yes | no | no |
+| exploding-area/delete-account.html | yes | yes | yes | no | no | no |
+| privacy-policy.html | yes | yes | yes | no | no | no |
+| terms-of-service.html | yes | yes | yes | no | no | no |
+
+Game landing (`exploding-area/index.html`) uses a Play Store–style app header (icon squircle, studio line, **3+** age badge, Install-position store CTA). See [CONTENT.md](CONTENT.md#exploding-arena-landing-play-store-style-header). Site header logo remains `d3k2-studio-logo.png` on every page.
 
 ## Deployment model
 
