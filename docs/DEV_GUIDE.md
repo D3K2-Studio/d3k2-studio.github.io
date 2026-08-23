@@ -21,7 +21,8 @@ No npm, no bundler, no framework.
 ├── exploding-arena/
 │   ├── index.html            # Game landing (Play-style header + Install CTA)
 │   ├── credits.html
-│   └── delete-account.html   # Play account-deletion URL target
+│   ├── delete-account.html   # Play account-deletion URL target
+│   └── force-update.json     # Remote min version for in-game force update
 ├── exploding-area/           # Legacy client-side redirects → exploding-arena/
 │   ├── index.html
 │   ├── credits.html
@@ -40,7 +41,7 @@ No npm, no bundler, no framework.
 
 `app-ads.txt` must stay at domain root so `https://d3k2-studio.github.io/app-ads.txt` resolves. Details: [CONTENT.md](CONTENT.md#admob-app-adstxt).
 
-Store listing URLs, badges, game landing header, and legacy path redirects: [CONTENT.md](CONTENT.md#public-urls-store-listings), [CONTENT.md](CONTENT.md#store-badges-google-play), [CONTENT.md](CONTENT.md#exploding-arena-landing-play-store-style-header), and [CONTENT.md](CONTENT.md#legacy-url-redirects-exploding-area--exploding-arena).
+Store listing URLs, badges, game landing header, legacy path redirects, and force-update config: [CONTENT.md](CONTENT.md#public-urls-store-listings), [CONTENT.md](CONTENT.md#store-badges-google-play), [CONTENT.md](CONTENT.md#exploding-arena-landing-play-store-style-header), [CONTENT.md](CONTENT.md#legacy-url-redirects-exploding-area--exploding-arena), and [CONTENT.md](CONTENT.md#force-update-config-exploding-arenaforce-updatejson).
 
 ## Style & coding rules
 
