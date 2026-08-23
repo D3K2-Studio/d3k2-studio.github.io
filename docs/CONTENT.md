@@ -21,6 +21,7 @@ The `references/` folder at repo root was used during initial import; **do not r
 | Privacy Policy | https://d3k2-studio.github.io/privacy-policy.html |
 | Terms of Service | https://d3k2-studio.github.io/terms-of-service.html |
 | Account & Data Deletion | https://d3k2-studio.github.io/exploding-arena/delete-account.html |
+| Force-update config | https://d3k2-studio.github.io/exploding-arena/force-update.json |
 | AdMob app-ads.txt | https://d3k2-studio.github.io/app-ads.txt |
 | **Google Play (Android)** | https://play.google.com/store/apps/details?id=com.d3k2studio.explodingarena |
 | App Store (iOS) | *Coming soon — add URL when live* |
@@ -40,6 +41,23 @@ GitHub Pages has no server 301, so compatibility stubs live under `exploding-are
 | `/exploding-area/delete-account.html` | `/exploding-arena/delete-account.html` |
 
 **After deploy:** update Google Play Console **Account deletion URL** (and any marketing/developer website field) to the canonical `/exploding-arena/` URLs above. Keep the stub folder until old links are no longer needed.
+
+## Force-update config (`exploding-arena/force-update.json`)
+
+Remote JSON the game client fetches to enforce a minimum store version. Live URL:
+
+```
+https://d3k2-studio.github.io/exploding-arena/force-update.json
+```
+
+| Field | Meaning |
+|-------|---------|
+| `android_min_version` | Minimum Android app version (semver string, e.g. `1.0.5`) |
+| `ios_min_version` | Minimum iOS app version (semver string) |
+
+**Workflow:** edit both fields in `exploding-arena/force-update.json` → push to the publish branch → wait for GitHub Pages rebuild → verify the live JSON in a private window. Clients below the min version should then be prompted to update.
+
+Current values: **1.0.5** (Android + iOS). Keep platforms in sync unless you intentionally gate only one store.
 
 ## Brand strings (must stay consistent)
 

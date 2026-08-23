@@ -49,7 +49,7 @@ flowchart LR
   ToS -->|"§12 link"| PP
 ```
 
-Root static files also include **`app-ads.txt`** (AdMob IAB authorization; not linked from nav). See [CONTENT.md](CONTENT.md#admob-app-adstxt).
+Root static files also include **`app-ads.txt`** (AdMob IAB authorization; not linked from nav). See [CONTENT.md](CONTENT.md#admob-app-adstxt). Game clients also fetch **`exploding-arena/force-update.json`** for remote min-version gates — see [CONTENT.md](CONTENT.md#force-update-config-exploding-arenaforce-updatejson).
 
 Play Store listing: `https://play.google.com/store/apps/details?id=com.d3k2studio.explodingarena` (brand **Exploding Arena**; site path `/exploding-arena/`). Legacy `/exploding-area/` pages are client-side redirects only — see [CONTENT.md](CONTENT.md#legacy-url-redirects-exploding-area--exploding-arena).
 
